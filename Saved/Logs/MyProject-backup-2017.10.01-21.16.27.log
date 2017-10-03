@@ -1,0 +1,846 @@
+﻿Log file open, 09/30/17 15:52:07
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1289010040) SRandInit(1289010040).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081649
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.30-19.52.08:136][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.30-19.52.08:136][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.30-19.52.08:209][  0]LogInit: Computer: ALEX
+[2017.09.30-19.52.08:209][  0]LogInit: User: galla000
+[2017.09.30-19.52.08:209][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.30-19.52.08:209][  0]LogInit: High frequency timer resolution =2.825499 MHz
+[2017.09.30-19.52.08:209][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.09.30-19.52.08:209][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.30-19.52.08:209][  0]LogMemory: Process Physical Memory: 271.13 MB used, 271.13 MB peak
+[2017.09.30-19.52.08:209][  0]LogMemory: Process Virtual Memory: 260.78 MB used, 260.78 MB peak
+[2017.09.30-19.52.08:209][  0]LogMemory: Physical Memory: 3524.95 MB used,  29124.07 MB free, 32649.02 MB total
+[2017.09.30-19.52.08:209][  0]LogMemory: Virtual Memory: 617.64 MB used,  29124.07 MB free, 134217728.00 MB total
+[2017.09.30-19.52.08:262][  0]LogInit: Using OS detected language (en-US).
+[2017.09.30-19.52.08:262][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.30-19.52.08:264][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.30-19.52.09:008][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.30-19.52.09:016][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.09.30-19.52.09:016][  0]LogD3D11RHI:       4054/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.09.30-19.52.09:017][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.30-19.52.09:017][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.30-19.52.09:017][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.30-19.52.09:020][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.30-19.52.09:020][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.30-19.52.09:020][  0]LogWindows: EnumDisplayDevices:
+[2017.09.30-19.52.09:020][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.09.30-19.52.09:020][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.30-19.52.09:020][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.30-19.52.09:020][  0]LogWindows:    3. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.09.30-19.52.09:020][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.30-19.52.09:020][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2017.09.30-19.52.09:020][  0]LogD3D11RHI:   Driver Version: 10.18.10.3304 (internal:10.18.10.3304, unified:10.18.10.3304)
+[2017.09.30-19.52.09:020][  0]LogD3D11RHI:      Driver Date: 9-9-2013
+[2017.09.30-19.52.09:020][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.30-19.52.09:030][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.30-19.52.09:045][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 2)
+[2017.09.30-19.52.09:045][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (D:/Unreal Games/MyProject/Intermediate/Shaders/WorkingDirectory/7964/).
+[2017.09.30-19.52.09:045][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/galla_000/AppData/Local/Temp/UnrealShaderWorkingDir/35B96D194F5A6DDA9B3E60B09DC55CB4/'.
+[2017.09.30-19.52.09:045][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.30-19.52.09:931][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.30-19.52.09:968][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.30-19.52.10:005][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.30-19.52.10:042][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.30-19.52.10:079][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.30-19.52.10:116][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.30-19.52.10:155][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.30-19.52.10:195][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.30-19.52.10:228][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.30-19.52.10:265][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.30-19.52.10:301][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.30-19.52.10:337][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.30-19.52.10:374][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.30-19.52.10:410][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.30-19.52.10:446][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.30-19.52.10:520][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.30-19.52.10:520][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.30-19.52.10:548][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.30-19.52.10:623][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.30-19.52.10:647][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.30-19.52.10:684][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.30-19.52.10:720][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.30-19.52.10:757][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.30-19.52.10:795][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.30-19.52.10:795][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.30-19.52.11:159][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.30-19.52.11:252][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.30-19.52.11:252][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.30-19.52.11:252][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Games/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.30-19.52.11:252][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.30-19.52.11:252][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Games/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.30-19.52.11:252][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.30-19.52.11:268][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.30-19.52.11:283][  0]LogDerivedDataCache: Using Local data cache path C:/Users/galla_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.30-19.52.11:292][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.30-19.52.11:292][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.30-19.52.11:293][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.30-19.52.11:293][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.30-19.52.11:567][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.30-19.52.11:659][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.30-19.52.11:830][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.30-19.52.11:863][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.30-19.52.11:898][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.30-19.52.11:898][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.30-19.52.11:898][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.30-19.52.12:482][  0]LogNetVersion: MyProject , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1111101373)
+[2017.09.30-19.52.12:541][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.09.30-19.52.12:668][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.109806 seconds
+[2017.09.30-19.52.12:674][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.30-19.52.12:674][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.30-19.52.12:674][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.30-19.52.12:722][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.30-19.52.14:659][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.30-19.52.14:691][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.30-19.52.15:093][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.30-19.52.15:392][  0]SourceControl: Info Source control is disabled
+[2017.09.30-19.52.15:393][  0]SourceControl: Info Source control is disabled
+[2017.09.30-19.52.15:427][  0]SourceControl: Info Source control is disabled
+[2017.09.30-19.52.15:461][  0]SourceControl: Info Source control is disabled
+[2017.09.30-19.52.15:987][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.30-19.52.16:416][  0]LogEngine: Initializing Engine...
+[2017.09.30-19.52.16:417][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.30-19.52.16:657][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.30-19.52.16:657][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.30-19.52.16:819][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.30-19.52.16:824][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-19.52.16:841][  0]LogInit: FAudioDevice initialized.
+[2017.09.30-19.52.16:888][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.30-19.52.16:901][  0]LogInit: Texture streaming: Enabled
+[2017.09.30-19.52.16:977][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.30-19.52.17:135][  0]LogInit: Transaction tracking system initialized
+[2017.09.30-19.52.17:368][  0]BlueprintLog: New page: Editor Load
+[2017.09.30-19.52.18:054][  0]LocalizationService: Info Localization service is disabled
+[2017.09.30-19.52.18:546][  0]LogConsoleResponse:Display: 
+[2017.09.30-19.52.18:668][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.30-19.52.18:668][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.30-19.52.19:411][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/MyProject/Content/' took 0.01s
+[2017.09.30-19.52.19:411][  0]SourceControl: Info Source control is disabled
+[2017.09.30-19.52.19:411][  0]Cmd: MAP LOAD FILE="D:/Unreal Games/MyProject/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.30-19.52.19:411][  0]LightingResults: New page: Lighting Build
+[2017.09.30-19.52.19:441][  0]MapCheck: New page: Map Check
+[2017.09.30-19.52.19:441][  0]LightingResults: New page: Lighting Build
+[2017.09.30-19.52.20:061][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-19.52.20:191][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.30-19.52.20:206][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.30-19.52.20:243][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.004ms to complete.
+[2017.09.30-19.52.20:243][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 0.832
+[2017.09.30-19.52.20:365][  0]LogCollectionManager: Loaded 0 collections in 0.001087 seconds
+[2017.09.30-19.52.20:430][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/MyProject/Saved/Collections/' took 0.01s
+[2017.09.30-19.52.20:430][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/MyProject/Content/Developers/galla000/Collections/' took 0.01s
+[2017.09.30-19.52.20:430][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/MyProject/Content/Collections/' took 0.01s
+[2017.09.30-19.52.20:430][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.30-19.52.20:439][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2331 classes and 494 folders.
+[2017.09.30-19.52.20:487][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.30-19.52.20:515][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.30-19.52.20:547][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.30-19.52.20:630][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.30-19.52.20:633][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.30-19.52.20:635][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.30-19.52.20:641][  0]LogSlate: Took 0.000434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.30-19.52.20:721][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.09.30-19.52.21:053][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.30-19.52.21:107][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.30-19.52.21:107][  0]LogLoad: (Engine Initialization) Total time: 14.29 seconds
+[2017.09.30-19.52.21:107][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2017.09.30-19.52.21:107][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.30-19.52.21:125][  0]LogOcInput: OculusInput pre-init called
+[2017.09.30-19.52.21:125][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.30-19.52.21:125][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.30-19.52.21:125][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.09.30-19.52.21:125][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.09.30-19.52.21:125][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.09.30-19.52.21:125][  0]LogHMD: Starting GearVRController plugin
+[2017.09.30-19.52.21:143][  0]LogAssetRegistry: Asset discovery search completed in 8.6238 seconds
+[2017.09.30-19.52.21:144][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.30-19.52.21:144][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.09.30-19.52.21:147][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.09.30-19.52.21:188][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.30-19.52.39:591][286]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.30-19.52.39:723][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-19.52.39:724][286]PIE: New page: PIE session: VehicleAdvExampleMap (Sep 30, 2017, 11:52:39 AM)
+[2017.09.30-19.52.39:724][286]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.09.30-19.52.39:756][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032368s)
+[2017.09.30-19.52.39:757][286]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-19.52.39:757][286]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2017.09.30-19.52.39:757][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.033456s)
+[2017.09.30-19.52.39:767][286]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-19.52.39:775][286]LogInit: FAudioDevice initialized.
+[2017.09.30-19.52.39:822][286]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.30-19.52.39:833][286]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.09.30-15.52.39
+[2017.09.30-19.52.39:833][286]LogWorld: Bringing up level for play took: 0.004721
+[2017.09.30-19.52.39:864][286]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.09.30-19.52.39:865][286]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.232
+[2017.09.30-19.52.42:999][358]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.09.30-19.53.24:344][813]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.30-19.53.24:432][813]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.30-19.53.24:675][813]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.09.30-19.53.24:711][813]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.09.30-19.53.24:899][813]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.30-19.53.24:994][813]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2017.09.30-19.53.25:004][813]LogRenderer: Reallocating scene render targets to support 1208x888 NumSamples 1 (Frame:1).
+[2017.09.30-19.53.29:722][845]LogSlate: Took 0.000492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.30-19.53.34:808][880]LogMaterial:Warning: Material /Game/VehicleAdv/Materials/MasterGrid.MasterGrid needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.30-19.53.34:816][880]LogMaterial: Missing cached shader map for material MasterGrid, compiling. 
+[2017.09.30-19.53.45:749][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdv/Vehicle/Vehicle_SkelMesh" FILE="D:/Unreal Games/MyProject/Content/VehicleAdv/Vehicle/Vehicle_SkelMesh.uasset" SILENT=true
+[2017.09.30-19.53.45:808][954]LogSavePackage: Save=51.73ms
+[2017.09.30-19.53.45:808][954]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/Vehicle_SkelMesh6D9DA89E44F04E72812B79B9646E563A.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdv/Vehicle/Vehicle_SkelMesh.uasset'
+[2017.09.30-19.53.45:809][954]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdv/Vehicle/Vehicle_SkelMesh.uasset
+[2017.09.30-19.53.48:300][985]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.30-19.53.48:315][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-19.53.48:315][985]PIE: New page: PIE session: VehicleAdvExampleMap (Sep 30, 2017, 11:53:48 AM)
+[2017.09.30-19.53.48:315][985]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.09.30-19.53.48:342][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026186s)
+[2017.09.30-19.53.48:342][985]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-19.53.48:342][985]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2017.09.30-19.53.48:342][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.027013s)
+[2017.09.30-19.53.48:488][985]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-19.53.48:495][985]LogInit: FAudioDevice initialized.
+[2017.09.30-19.53.48:527][985]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.30-19.53.48:537][985]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.09.30-15.53.48
+[2017.09.30-19.53.48:538][985]LogWorld: Bringing up level for play took: 0.004809
+[2017.09.30-19.53.48:539][985]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.907
+[2017.09.30-19.54.04:545][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2017.09.30-19.54.04:582][363]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2017.09.30-19.54.17:646][455]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.30-19.54.17:653][455]LogMaterial: Missing cached shader map for material M_Water_Ocean, compiling. 
+[2017.09.30-19.54.48:573][701]LogMaterial:Warning: Material /Game/StarterContent/Particles/Materials/M_Spark.M_Spark needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.30-19.54.48:582][701]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2017.09.30-19.55.12:641][902]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Metal_Rust.M_Metal_Rust needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.30-19.55.12:648][902]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2017.09.30-19.55.26:133][  5]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.30-19.55.26:142][  5]LogMaterial: Missing cached shader map for material M_Metal_Gold, compiling. 
+[2017.09.30-19.55.43:087][164]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.30-19.55.43:103][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-19.55.43:103][164]PIE: New page: PIE session: VehicleAdvExampleMap (Sep 30, 2017, 11:55:43 AM)
+[2017.09.30-19.55.43:103][164]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.09.30-19.55.43:132][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028572s)
+[2017.09.30-19.55.43:133][164]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-19.55.43:133][164]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.09.30-19.55.43:133][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.029628s)
+[2017.09.30-19.55.43:249][164]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-19.55.43:255][164]LogInit: FAudioDevice initialized.
+[2017.09.30-19.55.43:284][164]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.30-19.55.43:295][164]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.09.30-15.55.43
+[2017.09.30-19.55.43:296][164]LogWorld: Bringing up level for play took: 0.005681
+[2017.09.30-19.55.43:297][164]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.335
+[2017.09.30-19.56.02:868][678]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-19.56.41:394][691]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-19.56.46:034][815]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-19.56.46:444][826]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-19.56.55:529][999]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.09.30-19.56.55:566][999]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.09.30-19.57.09:952][107]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Ground_Grass.M_Ground_Grass needed to have new flag set bUsedWithSkeletalMesh !
+[2017.09.30-19.57.09:961][107]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.09.30-19.57.20:267][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdv/Vehicle/Vehicle_SkelMesh" FILE="D:/Unreal Games/MyProject/Content/VehicleAdv/Vehicle/Vehicle_SkelMesh.uasset" SILENT=true
+[2017.09.30-19.57.20:319][176]LogSavePackage: Save=49.70ms
+[2017.09.30-19.57.20:319][176]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/Vehicle_SkelMesh752CF4F14C25B0A0FA145D879ECC0177.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdv/Vehicle/Vehicle_SkelMesh.uasset'
+[2017.09.30-19.57.20:321][176]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdv/Vehicle/Vehicle_SkelMesh.uasset
+[2017.09.30-19.57.23:357][217]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.30-19.57.23:372][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-19.57.23:372][217]PIE: New page: PIE session: VehicleAdvExampleMap (Sep 30, 2017, 11:57:23 AM)
+[2017.09.30-19.57.23:372][217]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.09.30-19.57.23:398][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025743s)
+[2017.09.30-19.57.23:399][217]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-19.57.23:399][217]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2017.09.30-19.57.23:400][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.027060s)
+[2017.09.30-19.57.23:523][217]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-19.57.23:531][217]LogInit: FAudioDevice initialized.
+[2017.09.30-19.57.23:565][217]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.30-19.57.23:575][217]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.09.30-15.57.23
+[2017.09.30-19.57.23:576][217]LogWorld: Bringing up level for play took: 0.004894
+[2017.09.30-19.57.23:577][217]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.055
+[2017.09.30-19.58.32:451][ 27]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-19.58.33:362][ 52]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-19.58.33:878][ 66]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-19.58.36:210][130]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-19.59.06:433][916]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.00.35:238][229]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.00.36:195][255]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.00.37:048][278]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.00.38:225][310]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.00.52:374][685]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.08.23:612][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.008
+[2017.09.30-20.08.23:613][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleAdv/Materials/MasterGrid] ([1] browsable assets)...
+[2017.09.30-20.08.23:668][724]OBJ SavePackage:     Rendered thumbnail for [Material /Game/VehicleAdv/Materials/MasterGrid.MasterGrid]
+[2017.09.30-20.08.23:668][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdv/Materials/MasterGrid]
+[2017.09.30-20.08.23:668][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdv/Materials/MasterGrid" FILE="D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdv/Materials/MasterGrid_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.30-20.08.24:168][724]LogSavePackage: Save=20.20ms
+[2017.09.30-20.08.24:168][724]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/MasterGrid_Auto12DD792B84C023581A9462EA3471F1FFE.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdv/Materials/MasterGrid_Auto1.uasset'
+[2017.09.30-20.08.24:169][724]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdv/Materials/MasterGrid_Auto1.uasset
+[2017.09.30-20.08.24:169][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleAdv/Materials/MaterialInstances/RedGrid] ([1] browsable assets)...
+[2017.09.30-20.08.24:202][724]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/VehicleAdv/Materials/MaterialInstances/RedGrid.RedGrid]
+[2017.09.30-20.08.24:202][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdv/Materials/MaterialInstances/RedGrid]
+[2017.09.30-20.08.24:221][724]LogSavePackage: Save=14.50ms
+[2017.09.30-20.08.24:221][724]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/RedGrid_Auto126690B084FD1E9779EC3A999E61D7FC1.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdv/Materials/MaterialInstances/RedGrid_Auto1.uasset'
+[2017.09.30-20.08.24:221][724]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdv/Materials/MaterialInstances/RedGrid_Auto1.uasset
+[2017.09.30-20.08.24:222][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Water_Ocean] ([1] browsable assets)...
+[2017.09.30-20.08.24:256][724]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean]
+[2017.09.30-20.08.24:256][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Water_Ocean]
+[2017.09.30-20.08.24:287][724]LogSavePackage: Save=25.83ms
+[2017.09.30-20.08.24:287][724]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Water_Ocean_Auto1AC63878E40D82DCE99A903889027B179.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Materials/M_Water_Ocean_Auto1.uasset'
+[2017.09.30-20.08.24:287][724]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Materials/M_Water_Ocean_Auto1.uasset
+[2017.09.30-20.08.24:288][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/Materials/M_Spark] ([1] browsable assets)...
+[2017.09.30-20.08.24:322][724]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Particles/Materials/M_Spark.M_Spark]
+[2017.09.30-20.08.24:322][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/Materials/M_Spark]
+[2017.09.30-20.08.24:340][724]LogSavePackage: Save=14.40ms
+[2017.09.30-20.08.24:340][724]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Spark_Auto1B1C037D846C7EFA7DEB090BDBF1F4FBE.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_Spark_Auto1.uasset'
+[2017.09.30-20.08.24:341][724]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Particles/Materials/M_Spark_Auto1.uasset
+[2017.09.30-20.08.24:341][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Metal_Rust] ([1] browsable assets)...
+[2017.09.30-20.08.24:374][724]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Metal_Rust.M_Metal_Rust]
+[2017.09.30-20.08.24:374][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Metal_Rust]
+[2017.09.30-20.08.24:405][724]LogSavePackage: Save=23.66ms
+[2017.09.30-20.08.24:405][724]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Metal_Rust_Auto19D27ABD94BDA2D1E9F4888BD4DD04697.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Materials/M_Metal_Rust_Auto1.uasset'
+[2017.09.30-20.08.24:406][724]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Materials/M_Metal_Rust_Auto1.uasset
+[2017.09.30-20.08.24:406][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Metal_Gold] ([1] browsable assets)...
+[2017.09.30-20.08.24:437][724]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Metal_Gold.M_Metal_Gold]
+[2017.09.30-20.08.24:437][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Metal_Gold]
+[2017.09.30-20.08.24:461][724]LogSavePackage: Save=19.56ms
+[2017.09.30-20.08.24:462][724]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Metal_Gold_Auto125C0C68F4FC7323CCDBADF91BFB14CDC.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Materials/M_Metal_Gold_Auto1.uasset'
+[2017.09.30-20.08.24:462][724]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Materials/M_Metal_Gold_Auto1.uasset
+[2017.09.30-20.08.24:462][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/M_Ground_Grass] ([1] browsable assets)...
+[2017.09.30-20.08.24:495][724]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/M_Ground_Grass.M_Ground_Grass]
+[2017.09.30-20.08.24:495][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/M_Ground_Grass]
+[2017.09.30-20.08.24:525][724]LogSavePackage: Save=25.81ms
+[2017.09.30-20.08.24:525][724]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Ground_Grass_Auto179FDA879434591E6B64F36A3EE960494.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Materials/M_Ground_Grass_Auto1.uasset'
+[2017.09.30-20.08.24:526][724]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/StarterContent/Materials/M_Ground_Grass_Auto1.uasset
+[2017.09.30-20.08.24:526][724]LogFileHelpers: Auto-saving content packages took 0.913
+[2017.09.30-20.08.24:527][724]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.30-20.16.27:944][210]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.09.30-20.16.28:491][210]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.30-20.20.28:393][339]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.09.30-20.20.28:593][339]BlueprintEditorCompileResults: Info 'self' is already a 'Vehicle Blueprint' (which inherits from 'Actor'), so you don't need  Cast To Actor .
+[2017.09.30-20.20.30:075][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2017.09.30-20.20.30:244][356]LogSavePackage: Save=163.41ms
+[2017.09.30-20.20.30:244][356]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleBlueprint27486AA840F92EB1D74394A09617AAD6.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.09.30-20.20.30:245][356]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.09.30-20.20.33:082][397]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.30-20.20.33:114][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-20.20.33:114][397]PIE: New page: PIE session: VehicleAdvExampleMap (Sep 30, 2017, 12:20:33 PM)
+[2017.09.30-20.20.33:114][397]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.09.30-20.20.33:141][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027446s)
+[2017.09.30-20.20.33:142][397]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-20.20.33:142][397]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2017.09.30-20.20.33:142][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.028544s)
+[2017.09.30-20.20.33:248][397]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-20.20.33:257][397]LogInit: FAudioDevice initialized.
+[2017.09.30-20.20.33:291][397]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.30-20.20.33:301][397]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.09.30-16.20.33
+[2017.09.30-20.20.33:302][397]LogWorld: Bringing up level for play took: 0.005161
+[2017.09.30-20.20.33:303][397]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.329
+[2017.09.30-20.20.36:390][475]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.20.38:597][532]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.20.39:375][552]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.20.40:376][578]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.20.55:323][969]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.20.56:454][999]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.20.59:084][ 69]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.20.59:868][ 90]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.21.01:349][129]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.21.06:359][262]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.21:062][962]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.09.30-20.23.22:077][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2017.09.30-20.23.22:240][970]LogSavePackage: Save=161.25ms
+[2017.09.30-20.23.22:241][970]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleBlueprintF2C0E7C543AD585B69C0DDB550F2BAE2.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.09.30-20.23.22:243][970]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.09.30-20.23.26:394][ 28]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.30-20.23.26:410][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-20.23.26:410][ 28]PIE: New page: PIE session: VehicleAdvExampleMap (Sep 30, 2017, 12:23:26 PM)
+[2017.09.30-20.23.26:410][ 28]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.09.30-20.23.26:436][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026349s)
+[2017.09.30-20.23.26:437][ 28]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-20.23.26:437][ 28]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2017.09.30-20.23.26:437][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.027268s)
+[2017.09.30-20.23.26:577][ 28]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-20.23.26:585][ 28]LogInit: FAudioDevice initialized.
+[2017.09.30-20.23.26:619][ 28]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.30-20.23.26:628][ 28]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.09.30-16.23.26
+[2017.09.30-20.23.26:629][ 28]LogWorld: Bringing up level for play took: 0.004644
+[2017.09.30-20.23.26:630][ 28]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.998
+[2017.09.30-20.23.29:113][ 90]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.30:068][115]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.30:717][132]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.31:257][146]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.31:755][159]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.34:188][223]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.35:330][253]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.37:171][301]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.37:981][322]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.38:947][347]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.43:813][472]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.44:813][498]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.23.57:989][846]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.00:978][928]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.01:668][947]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.04:168][ 16]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.04:672][ 30]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.05:033][ 40]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.05:936][ 65]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.07:165][ 99]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.07:996][122]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.08:934][148]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.10:604][194]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.11:260][212]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.14:314][295]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.15:223][320]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.16:020][342]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.16:779][363]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.17:863][393]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.19:110][427]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.55:885][412]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.24.58:450][480]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Hello
+[2017.09.30-20.27.10:560][140]LogSavePackage: Save=278.28ms
+[2017.09.30-20.27.10:560][140]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleAdvExampleMap_Auto2025A4E1444C248F0165578B0EA161F1D.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto2.umap'
+[2017.09.30-20.27.10:560][140]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto2.umap
+[2017.09.30-20.27.10:566][140]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.308
+[2017.09.30-20.27.10:566][140]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.308
+[2017.09.30-20.27.10:568][140]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint] ([1] browsable assets)...
+[2017.09.30-20.27.10:615][140]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint]
+[2017.09.30-20.27.10:615][140]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint]
+[2017.09.30-20.27.11:408][140]LogSavePackage: Save=144.70ms
+[2017.09.30-20.27.11:408][140]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleBlueprint_Auto208F0C45B44DFDD7666F56D92167534AC.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto2.uasset'
+[2017.09.30-20.27.11:408][140]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto2.uasset
+[2017.09.30-20.27.11:408][140]LogFileHelpers: Auto-saving content packages took 0.842
+[2017.09.30-20.28.00:358][756]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.09.30-20.28.01:367][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2017.09.30-20.28.01:519][764]LogSavePackage: Save=150.13ms
+[2017.09.30-20.28.01:519][764]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleBlueprint21E49BA9422D387B26551AB30D6909B8.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.09.30-20.28.01:523][764]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.09.30-20.32.32:214][936]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.09.30-20.32.33:003][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2017.09.30-20.32.33:161][941]LogSavePackage: Save=151.66ms
+[2017.09.30-20.32.33:161][941]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleBlueprintD04BEA4D47F4A2FB9DD26C8BE3717F02.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.09.30-20.32.33:162][941]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.09.30-20.37.30:011][634]LogSavePackage: Save=750.76ms
+[2017.09.30-20.37.30:011][634]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleAdvExampleMap_Auto36702A3804CA2CCA162FE88BCAF6BB113.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto3.umap'
+[2017.09.30-20.37.30:011][634]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto3.umap
+[2017.09.30-20.37.30:019][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.783
+[2017.09.30-20.37.30:019][634]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.783
+[2017.09.30-20.45.56:237][235]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.09.30-20.45.59:391][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2017.09.30-20.45.59:544][275]LogSavePackage: Save=145.07ms
+[2017.09.30-20.45.59:544][275]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleBlueprint42EC4FC54144DA36FE17E785495A0DE3.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.09.30-20.45.59:548][275]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.09.30-20.47.53:272][  0]LogSavePackage: Save=270.50ms
+[2017.09.30-20.47.53:273][  0]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleAdvExampleMap_Auto488A0F74B4165E94DC0A328A49F1F6576.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto4.umap'
+[2017.09.30-20.47.53:273][  0]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto4.umap
+[2017.09.30-20.47.53:277][  0]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.301
+[2017.09.30-20.47.53:277][  0]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.301
+[2017.09.30-20.47.53:279][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint] ([1] browsable assets)...
+[2017.09.30-20.47.53:279][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint]
+[2017.09.30-20.47.53:933][  0]LogSavePackage: Save=134.60ms
+[2017.09.30-20.47.53:933][  0]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleBlueprint_Auto4B049DB014C1361710D703BA4C5D5A232.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto4.uasset'
+[2017.09.30-20.47.53:933][  0]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto4.uasset
+[2017.09.30-20.47.53:934][  0]LogFileHelpers: Auto-saving content packages took 0.655
+[2017.09.30-20.53.29:335][537]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.09.30-20.53.30:387][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2017.09.30-20.53.30:538][547]LogSavePackage: Save=144.91ms
+[2017.09.30-20.53.30:538][547]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleBlueprint7F5DCD26484179C2BB7CFDA1F989E31D.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.09.30-20.53.30:543][547]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.09.30-20.54.21:741][865]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.30-20.54.21:756][865]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-20.54.21:756][865]PIE: New page: PIE session: VehicleAdvExampleMap (Sep 30, 2017, 12:54:21 PM)
+[2017.09.30-20.54.21:757][865]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.09.30-20.54.21:785][865]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028551s)
+[2017.09.30-20.54.21:786][865]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-20.54.21:786][865]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2017.09.30-20.54.21:787][865]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.030101s)
+[2017.09.30-20.54.21:897][865]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-20.54.21:905][865]LogInit: FAudioDevice initialized.
+[2017.09.30-20.54.21:938][865]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.30-20.54.21:948][865]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.09.30-16.54.21
+[2017.09.30-20.54.21:948][865]LogWorld: Bringing up level for play took: 0.004534
+[2017.09.30-20.54.21:949][865]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.317
+[2017.09.30-20.54.26:352][994]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Reset
+[2017.09.30-20.54.29:901][100]LogBlueprintUserMessages: [VehicleBlueprint_C_1] Reset
+[2017.09.30-20.54.48:081][357]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.30-20.54.48:096][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.30-20.54.48:096][357]PIE: New page: PIE session: VehicleAdvExampleMap (Sep 30, 2017, 12:54:48 PM)
+[2017.09.30-20.54.48:096][357]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.09.30-20.54.48:120][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023679s)
+[2017.09.30-20.54.48:120][357]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.09.30-20.54.48:120][357]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2017.09.30-20.54.48:121][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.024782s)
+[2017.09.30-20.54.48:242][357]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.30-20.54.48:250][357]LogInit: FAudioDevice initialized.
+[2017.09.30-20.54.48:284][357]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.30-20.54.48:294][357]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.09.30-16.54.48
+[2017.09.30-20.54.48:295][357]LogWorld: Bringing up level for play took: 0.004967
+[2017.09.30-20.54.48:296][357]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap 0.664
+[2017.09.30-20.58.16:729][160]LogSavePackage: Save=376.39ms
+[2017.09.30-20.58.16:729][160]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleAdvExampleMap_Auto5927CF89F4DDBE081698C378D9B49C8C2.tmp' to 'D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto5.umap'
+[2017.09.30-20.58.16:729][160]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Saved/Autosaves/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_Auto5.umap
+[2017.09.30-20.58.16:731][160]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.867
+[2017.09.30-20.58.16:731][160]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.867
+[2017.09.30-21.03.13:213][ 86]LogSavePackage: Save=493.18ms
+[2017.09.30-21.03.13:213][ 86]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/VehicleAdvExampleMap863951C7471A74FFEAEB75804DEFB9BE.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.09.30-21.03.13:214][ 86]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.09.30-21.03.13:233][ 86]LogFileHelpers: Saving map 'VehicleAdvExampleMap' took 0.578
+[2017.09.30-21.03.13:236][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdv/Materials/MasterGrid" FILE="D:/Unreal Games/MyProject/Content/VehicleAdv/Materials/MasterGrid.uasset" SILENT=true
+[2017.09.30-21.03.13:246][ 86]LogSavePackage: Save=6.14ms
+[2017.09.30-21.03.13:246][ 86]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/MasterGrid9525742F430FAE1ECF8E558877F0659E.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdv/Materials/MasterGrid.uasset'
+[2017.09.30-21.03.13:251][ 86]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdv/Materials/MasterGrid.uasset
+[2017.09.30-21.03.13:254][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdv/Materials/MaterialInstances/RedGrid" FILE="D:/Unreal Games/MyProject/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset" SILENT=true
+[2017.09.30-21.03.13:270][ 86]LogSavePackage: Save=8.77ms
+[2017.09.30-21.03.13:270][ 86]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/RedGrid82E9DE5645DE8C2AC5B0C9BC94137F04.tmp' to 'D:/Unreal Games/MyProject/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset'
+[2017.09.30-21.03.13:274][ 86]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset
+[2017.09.30-21.03.13:277][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Water_Ocean" FILE="D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset" SILENT=true
+[2017.09.30-21.03.13:303][ 86]LogSavePackage: Save=18.48ms
+[2017.09.30-21.03.13:303][ 86]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Water_OceanADFB6DD649C252D745E131A9A99DFF56.tmp' to 'D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset'
+[2017.09.30-21.03.13:308][ 86]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2017.09.30-21.03.13:311][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/Materials/M_Spark" FILE="D:/Unreal Games/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset" SILENT=true
+[2017.09.30-21.03.13:322][ 86]LogSavePackage: Save=7.38ms
+[2017.09.30-21.03.13:322][ 86]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Spark0275068E4FA3D1FC894079B51584B1EF.tmp' to 'D:/Unreal Games/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset'
+[2017.09.30-21.03.13:326][ 86]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2017.09.30-21.03.13:329][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Metal_Rust" FILE="D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset" SILENT=true
+[2017.09.30-21.03.13:345][ 86]LogSavePackage: Save=10.52ms
+[2017.09.30-21.03.13:345][ 86]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Metal_Rust38489B424885128FE17000BA4AAA0BF9.tmp' to 'D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset'
+[2017.09.30-21.03.13:347][ 86]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2017.09.30-21.03.13:350][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Metal_Gold" FILE="D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset" SILENT=true
+[2017.09.30-21.03.13:365][ 86]LogSavePackage: Save=10.38ms
+[2017.09.30-21.03.13:365][ 86]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Metal_Gold6D8CBDC44DCB7D409F4DDBA2DDD0C3BC.tmp' to 'D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset'
+[2017.09.30-21.03.13:368][ 86]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2017.09.30-21.03.13:371][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Materials/M_Ground_Grass" FILE="D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset" SILENT=true
+[2017.09.30-21.03.13:390][ 86]LogSavePackage: Save=14.57ms
+[2017.09.30-21.03.13:390][ 86]LogSavePackage: Moving 'D:/Unreal Games/MyProject/Saved/M_Ground_GrassF4D7ABE14C5CA1D67C4968AE5FCC8B9C.tmp' to 'D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset'
+[2017.09.30-21.03.13:391][ 86]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2017.09.30-21.03.13:991][ 96]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.30-21.03.14:201][ 97]Cmd: QUIT_EDITOR
+[2017.09.30-21.03.14:226][ 97]LogExit: Preparing to exit.
+[2017.09.30-21.03.14:903][ 97]LogExit: Editor shut down
+[2017.09.30-21.03.14:905][ 97]LogExit: Transaction tracking system shut down
+[2017.09.30-21.03.14:996][ 97]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.30-21.03.14:996][ 97]LogExit: Object subsystem successfully closed.
+[2017.09.30-21.03.15:019][ 97]LogD3D11RHI: Shutdown
+[2017.09.30-21.03.15:019][ 97]LogD3D11RHI: CleanupD3DDevice
+[2017.09.30-21.03.15:255][ 97]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (534)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module SkeletonEditor (532)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (530)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.09.30-21.03.15:266][ 97]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.09.30-21.03.15:266][ 97]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.09.30-21.03.15:267][ 97]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/MyProject/Content/Collections/' was aborted.
+[2017.09.30-21.03.15:267][ 97]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/MyProject/Content/Developers/galla000/Collections/' was aborted.
+[2017.09.30-21.03.15:267][ 97]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/MyProject/Saved/Collections/' was aborted.
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.09.30-21.03.15:267][ 97]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.09.30-21.03.15:268][ 97]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.09.30-21.03.15:268][ 97]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.09.30-21.03.15:268][ 97]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.09.30-21.03.15:268][ 97]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.09.30-21.03.15:268][ 97]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.09.30-21.03.15:268][ 97]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.09.30-21.03.15:547][ 97]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.09.30-21.03.15:548][ 97]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.09.30-21.03.15:548][ 97]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.09.30-21.03.15:548][ 97]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.09.30-21.03.15:548][ 97]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.09.30-21.03.15:548][ 97]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.09.30-21.03.15:548][ 97]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.09.30-21.03.15:590][ 97]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.09.30-21.03.15:596][ 97]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module RawInput (300)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.09.30-21.03.15:604][ 97]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.09.30-21.03.15:605][ 97]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.09.30-21.03.15:606][ 97]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.30-21.03.15:606][ 97]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.30-21.03.15:606][ 97]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.30-21.03.15:606][ 97]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.30-21.03.15:606][ 97]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.30-21.03.15:606][ 97]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.30-21.03.15:706][ 97]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.30-21.03.15:807][ 97]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.30-21.03.15:807][ 97]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.30-21.03.15:807][ 97]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.30-21.03.15:807][ 97]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.30-21.03.15:807][ 97]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.30-21.03.15:807][ 97]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.30-21.03.15:808][ 97]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.30-21.03.15:810][ 97]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.30-21.03.15:810][ 97]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.30-21.03.15:810][ 97]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.30-21.03.15:810][ 97]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.30-21.03.15:810][ 97]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.30-21.03.15:810][ 97]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.30-21.03.15:941][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.30-21.03.15:941][ 97]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/MyProject/Content/' was aborted.
+[2017.09.30-21.03.15:941][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.30-21.03.15:941][ 97]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.30-21.03.15:943][ 97]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.30-21.03.15:980][ 97]LogDerivedDataCache: Shutdown
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.30-21.03.15:980][ 97]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.30-21.03.15:981][ 97]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.30-21.03.15:981][ 97]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.30-21.03.15:981][ 97]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.30-21.03.15:981][ 97]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.30-21.03.15:981][ 97]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.30-21.03.15:981][ 97]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.30-21.03.15:981][ 97]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.30-21.03.15:981][ 97]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.30-21.03.15:981][ 97]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.30-21.03.15:981][ 97]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.30-21.03.15:981][ 97]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE16DBC4D-4AD6-1EF9-9F25-83BF4E5ABFE6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=665dec2a4cb07e4a71250ab9266ceb62%7Ce8b3675815f34300b2475ff9b011f0bc%7C4e8dcd73-f07b-479f-a7d5-ed78ed029b66&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.30-21.03.15:989][ 97]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.30-21.03.15:990][ 97]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.30-21.03.15:990][ 97]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.30-21.03.15:990][ 97]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.30-21.03.15:991][ 97]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.30-21.03.15:992][ 97]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.30-21.03.15:992][ 97]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.30-21.03.15:992][ 97]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.30-21.03.15:992][ 97]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.30-21.03.15:992][ 97]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.30-21.03.15:992][ 97]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.30-21.03.15:993][ 97]LogExit: Exiting.
+[2017.09.30-21.03.16:002][ 97]Log file closed, 09/30/17 17:03:16
