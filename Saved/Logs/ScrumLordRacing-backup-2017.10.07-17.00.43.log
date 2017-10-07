@@ -1,0 +1,252 @@
+﻿Log file open, 10/07/17 16:59:51
+LogInit:Display: Running engine for game: ScrumLordRacing
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1484213153) SRandInit(1484213153).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081067
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.07-20.59.51:458][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-20.59.51:458][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.07-20.59.51:467][  0]LogInit: Computer: ALEX
+[2017.10.07-20.59.51:467][  0]LogInit: User: galla000
+[2017.10.07-20.59.51:467][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.07-20.59.51:467][  0]LogInit: High frequency timer resolution =2.825505 MHz
+[2017.10.07-20.59.51:468][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.10.07-20.59.51:468][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-20.59.51:468][  0]LogMemory: Process Physical Memory: 271.99 MB used, 271.99 MB peak
+[2017.10.07-20.59.51:468][  0]LogMemory: Process Virtual Memory: 260.68 MB used, 260.68 MB peak
+[2017.10.07-20.59.51:468][  0]LogMemory: Physical Memory: 3847.36 MB used,  28801.66 MB free, 32649.02 MB total
+[2017.10.07-20.59.51:468][  0]LogMemory: Virtual Memory: 621.52 MB used,  28801.66 MB free, 134217728.00 MB total
+[2017.10.07-20.59.51:524][  0]LogInit: Using OS detected language (en-US).
+[2017.10.07-20.59.51:524][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.07-20.59.51:526][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.07-20.59.52:298][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.07-20.59.52:307][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.07-20.59.52:307][  0]LogD3D11RHI:       4054/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.07-20.59.52:308][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.07-20.59.52:308][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.07-20.59.52:308][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.07-20.59.52:311][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.07-20.59.52:311][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.07-20.59.52:311][  0]LogWindows: EnumDisplayDevices:
+[2017.10.07-20.59.52:311][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.07-20.59.52:312][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.07-20.59.52:312][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.07-20.59.52:312][  0]LogWindows:    3. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.07-20.59.52:312][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.07-20.59.52:312][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2017.10.07-20.59.52:312][  0]LogD3D11RHI:   Driver Version: 10.18.10.3304 (internal:10.18.10.3304, unified:10.18.10.3304)
+[2017.10.07-20.59.52:312][  0]LogD3D11RHI:      Driver Date: 9-9-2013
+[2017.10.07-20.59.52:312][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.07-20.59.52:320][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.07-20.59.52:336][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 2)
+[2017.10.07-20.59.52:336][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/Unreal Games/ScrumLordRacing/Intermediate/Shaders/WorkingDirectory/4176/).
+[2017.10.07-20.59.52:336][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/galla_000/AppData/Local/Temp/UnrealShaderWorkingDir/3ECF02734EEA08329EB3E2B6D83EEAA1/'.
+[2017.10.07-20.59.52:336][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.07-20.59.53:207][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.07-20.59.53:245][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.07-20.59.53:286][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.07-20.59.53:326][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.07-20.59.53:364][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.07-20.59.53:403][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.07-20.59.53:442][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.07-20.59.53:482][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.07-20.59.53:516][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.07-20.59.53:553][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.07-20.59.53:590][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.07-20.59.53:627][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.07-20.59.53:666][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.07-20.59.53:704][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.07-20.59.53:742][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.07-20.59.53:817][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.07-20.59.53:817][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.07-20.59.53:846][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.07-20.59.53:923][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.07-20.59.53:947][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.07-20.59.53:984][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.07-20.59.54:021][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.07-20.59.54:058][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.07-20.59.54:096][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.07-20.59.54:096][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.07-20.59.54:468][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.07-20.59.54:551][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-20.59.54:551][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.07-20.59.54:551][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Games/ScrumLordRacing/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.07-20.59.54:551][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.07-20.59.54:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Games/ScrumLordRacing/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.07-20.59.54:552][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.07-20.59.54:567][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.07-20.59.54:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/galla_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.07-20.59.54:588][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.07-20.59.54:588][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.07-20.59.54:588][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-20.59.54:588][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-20.59.54:851][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-20.59.54:958][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.07-20.59.55:144][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.07-20.59.55:180][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.07-20.59.55:216][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.07-20.59.55:216][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.07-20.59.55:216][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.07-20.59.55:801][  0]LogNetVersion: ScrumLordRacing , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1756322102)
+[2017.10.07-20.59.55:857][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2017.10.07-20.59.55:902][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.027918 seconds
+[2017.10.07-20.59.55:907][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.07-20.59.55:907][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.07-20.59.55:907][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.07-20.59.55:957][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.07-20.59.57:825][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.07-20.59.57:857][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.07-20.59.58:260][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.07-20.59.58:560][  0]SourceControl: Info Source control is disabled
+[2017.10.07-20.59.58:561][  0]SourceControl: Info Source control is disabled
+[2017.10.07-20.59.58:594][  0]SourceControl: Info Source control is disabled
+[2017.10.07-20.59.58:628][  0]SourceControl: Info Source control is disabled
+[2017.10.07-20.59.59:158][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.07-20.59.59:599][  0]LogEngine: Initializing Engine...
+[2017.10.07-20.59.59:599][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.07-21.00.00:012][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.07-21.00.00:012][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.07-21.00.00:116][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-21.00.00:121][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.00.00:138][  0]LogInit: FAudioDevice initialized.
+[2017.10.07-21.00.00:180][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-21.00.00:193][  0]LogInit: Texture streaming: Enabled
+[2017.10.07-21.00.00:270][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.07-21.00.00:270][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={F4078E53-4228-4C0F-D227-3FAAAAA013BC}
+[2017.10.07-21.00.00:433][  0]LogInit: Transaction tracking system initialized
+[2017.10.07-21.00.00:681][  0]BlueprintLog: New page: Editor Load
+[2017.10.07-21.00.01:404][  0]LocalizationService: Info Localization service is disabled
+[2017.10.07-21.00.01:919][  0]LogConsoleResponse:Display: 
+[2017.10.07-21.00.02:042][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.07-21.00.02:042][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.07-21.00.02:251][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/' took 0.01s
+[2017.10.07-21.00.02:817][  0]SourceControl: Info Source control is disabled
+[2017.10.07-21.00.02:817][  0]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.00.02:817][  0]LightingResults: New page: Lighting Build
+[2017.10.07-21.00.02:849][  0]MapCheck: New page: Map Check
+[2017.10.07-21.00.02:849][  0]LightingResults: New page: Lighting Build
+[2017.10.07-21.00.03:137][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.00.03:138][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.00.03:150][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.00.03:188][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.868ms to complete.
+[2017.10.07-21.00.03:188][  0]LogFileHelpers: Loading map 'MainMenu' took 0.370
+[2017.10.07-21.00.03:313][  0]LogCollectionManager: Loaded 0 collections in 0.001154 seconds
+[2017.10.07-21.00.03:378][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Saved/Collections/' took 0.01s
+[2017.10.07-21.00.03:378][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/Developers/galla000/Collections/' took 0.01s
+[2017.10.07-21.00.03:378][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/Collections/' took 0.01s
+[2017.10.07-21.00.03:378][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.07-21.00.03:386][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2331 classes and 494 folders.
+[2017.10.07-21.00.03:435][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.07-21.00.03:464][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.07-21.00.03:497][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.07-21.00.03:568][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.07-21.00.03:572][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-21.00.03:573][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.07-21.00.03:580][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.07-21.00.03:663][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.10.07-21.00.04:143][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.07-21.00.04:198][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.07-21.00.04:198][  0]LogLoad: (Engine Initialization) Total time: 13.91 seconds
+[2017.10.07-21.00.04:198][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.10.07-21.00.04:198][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.07-21.00.04:215][  0]LogOcInput: OculusInput pre-init called
+[2017.10.07-21.00.04:216][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.10.07-21.00.04:216][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.10.07-21.00.04:216][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.10.07-21.00.04:216][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.10.07-21.00.04:216][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.10.07-21.00.04:216][  0]LogHMD: Starting GearVRController plugin
+[2017.10.07-21.00.04:230][  0]LogAssetRegistry: Asset discovery search completed in 8.3956 seconds
+[2017.10.07-21.00.04:232][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.07-21.00.04:232][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.10.07-21.00.04:234][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.07-21.00.04:273][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-21.00.09:322][165]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-21.00.09:350][165]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.00.09:350][165]LightingResults: New page: Lighting Build
+[2017.10.07-21.00.09:350][165]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-21.00.09:359][165]MapCheck: New page: Map Check
+[2017.10.07-21.00.09:359][165]LightingResults: New page: Lighting Build
+[2017.10.07-21.00.09:382][165]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.00.09:429][165]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.00.09:467][165]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.00.09:503][165]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.891ms to complete.
+[2017.10.07-21.00.09:504][165]LogFileHelpers: Loading map 'MainMenu' took 0.155
+[2017.10.07-21.00.13:013][271]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.00.13:041][271]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.00.13:041][271]LightingResults: New page: Lighting Build
+[2017.10.07-21.00.13:041][271]LoadErrors: New page: Loading map: NewWorld.umap
+[2017.10.07-21.00.13:042][271]MapCheck: New page: Map Check
+[2017.10.07-21.00.13:042][271]LightingResults: New page: Lighting Build
+[2017.10.07-21.00.13:094][271]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.00.13:124][271]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.00.13:163][271]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.108ms to complete.
+[2017.10.07-21.00.13:163][271]LogFileHelpers: Loading map 'NewWorld' took 0.123
+[2017.10.07-21.00.19:287][549]MapCheck: New page: Map Check
+[2017.10.07-21.00.19:321][549]Cmd: MAP REBUILD
+[2017.10.07-21.00.19:322][549]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.10.07-21.00.19:374][549]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.10.07-21.00.19:374][549]MapCheck: New page: NewWorld - Oct 7, 2017, 1:00:19 PM
+[2017.10.07-21.00.19:375][549]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2017.10.07-21.00.19:412][549]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 38.012ms to complete.
+[2017.10.07-21.00.19:436][549]LogEditorBuildUtils: Build time 0:00
+[2017.10.07-21.00.36:494][288]MapCheck: New page: Map Check
+[2017.10.07-21.00.36:515][288]LightingResults: New page: Lighting Build - Oct 7, 2017, 1:00:36 PM
+[2017.10.07-21.00.36:543][288]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.10.07-21.00.36:578][288]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.10.07-21.00.36:586][288]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.10.07-21.00.37:093][288]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.10.07-21.00.37:093][288]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4176
+[2017.10.07-21.00.39:115][288]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.10.07-21.00.39:115][288]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.10.07-21.00.39:115][288]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.10.07-21.00.39:115][288]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.10.07-21.00.39:115][288]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.10.07-21.00.39:115][288]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.10.07-21.00.39:241][288]LogEditorBuildUtils: Build time 0:02
