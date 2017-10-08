@@ -1,0 +1,1108 @@
+﻿Log file open, 10/07/17 17:00:43
+LogInit:Display: Running engine for game: ScrumLordRacing
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1631775026) SRandInit(1631775026).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080838
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.07-21.00.43:672][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-21.00.43:672][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.07-21.00.43:682][  0]LogInit: Computer: ALEX
+[2017.10.07-21.00.43:682][  0]LogInit: User: galla000
+[2017.10.07-21.00.43:682][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.07-21.00.43:682][  0]LogInit: High frequency timer resolution =2.825505 MHz
+[2017.10.07-21.00.43:683][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.10.07-21.00.43:683][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.00.43:683][  0]LogMemory: Process Physical Memory: 271.60 MB used, 271.60 MB peak
+[2017.10.07-21.00.43:683][  0]LogMemory: Process Virtual Memory: 260.76 MB used, 260.76 MB peak
+[2017.10.07-21.00.43:683][  0]LogMemory: Physical Memory: 3830.92 MB used,  28818.11 MB free, 32649.02 MB total
+[2017.10.07-21.00.43:683][  0]LogMemory: Virtual Memory: 621.52 MB used,  28818.11 MB free, 134217728.00 MB total
+[2017.10.07-21.00.43:739][  0]LogInit: Using OS detected language (en-US).
+[2017.10.07-21.00.43:739][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.07-21.00.43:741][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.07-21.00.44:516][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.07-21.00.44:526][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.07-21.00.44:526][  0]LogD3D11RHI:       4054/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.07-21.00.44:526][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.07-21.00.44:527][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.07-21.00.44:527][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.07-21.00.44:530][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.07-21.00.44:530][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.07-21.00.44:530][  0]LogWindows: EnumDisplayDevices:
+[2017.10.07-21.00.44:531][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.07-21.00.44:531][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.07-21.00.44:531][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.07-21.00.44:531][  0]LogWindows:    3. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.07-21.00.44:531][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.07-21.00.44:531][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2017.10.07-21.00.44:531][  0]LogD3D11RHI:   Driver Version: 10.18.10.3304 (internal:10.18.10.3304, unified:10.18.10.3304)
+[2017.10.07-21.00.44:531][  0]LogD3D11RHI:      Driver Date: 9-9-2013
+[2017.10.07-21.00.44:531][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.07-21.00.44:539][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.07-21.00.44:555][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 2)
+[2017.10.07-21.00.44:555][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/Unreal Games/ScrumLordRacing/Intermediate/Shaders/WorkingDirectory/5528/).
+[2017.10.07-21.00.44:555][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/galla_000/AppData/Local/Temp/UnrealShaderWorkingDir/4ED3830449BF2514DB22068A046AC8D3/'.
+[2017.10.07-21.00.44:555][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.07-21.00.45:442][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.07-21.00.45:480][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.07-21.00.45:517][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.07-21.00.45:557][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.07-21.00.45:596][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.07-21.00.45:634][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.07-21.00.45:673][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.07-21.00.45:711][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.07-21.00.45:744][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.07-21.00.45:781][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.07-21.00.45:818][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.07-21.00.45:855][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.07-21.00.45:892][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.07-21.00.45:931][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.07-21.00.45:967][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.07-21.00.46:042][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.07-21.00.46:042][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.07-21.00.46:072][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.07-21.00.46:149][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.07-21.00.46:174][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.07-21.00.46:212][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.07-21.00.46:250][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.07-21.00.46:287][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.07-21.00.46:324][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.07-21.00.46:324][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.07-21.00.46:700][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.07-21.00.46:783][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-21.00.46:783][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.07-21.00.46:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Games/ScrumLordRacing/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.07-21.00.46:783][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.07-21.00.46:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Games/ScrumLordRacing/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.07-21.00.46:783][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.07-21.00.46:799][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.07-21.00.46:811][  0]LogDerivedDataCache: Using Local data cache path C:/Users/galla_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.07-21.00.46:820][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.07-21.00.46:820][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.07-21.00.46:820][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-21.00.46:820][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-21.00.47:085][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-21.00.47:189][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.07-21.00.47:377][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.07-21.00.47:411][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.07-21.00.47:446][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.07-21.00.47:446][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.07-21.00.47:446][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.07-21.00.48:024][  0]LogNetVersion: ScrumLordRacing , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1756322102)
+[2017.10.07-21.00.48:082][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2017.10.07-21.00.48:128][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025421 seconds
+[2017.10.07-21.00.48:132][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.07-21.00.48:132][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.07-21.00.48:132][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.07-21.00.48:183][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.07-21.00.50:058][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.07-21.00.50:090][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.07-21.00.50:490][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.07-21.00.50:796][  0]SourceControl: Info Source control is disabled
+[2017.10.07-21.00.50:797][  0]SourceControl: Info Source control is disabled
+[2017.10.07-21.00.50:832][  0]SourceControl: Info Source control is disabled
+[2017.10.07-21.00.50:866][  0]SourceControl: Info Source control is disabled
+[2017.10.07-21.00.51:405][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.07-21.00.51:850][  0]LogEngine: Initializing Engine...
+[2017.10.07-21.00.51:850][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.07-21.00.52:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.07-21.00.52:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.07-21.00.52:319][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-21.00.52:325][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.00.52:341][  0]LogInit: FAudioDevice initialized.
+[2017.10.07-21.00.52:379][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-21.00.52:394][  0]LogInit: Texture streaming: Enabled
+[2017.10.07-21.00.52:470][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.07-21.00.52:632][  0]LogInit: Transaction tracking system initialized
+[2017.10.07-21.00.52:871][  0]BlueprintLog: New page: Editor Load
+[2017.10.07-21.00.53:582][  0]LocalizationService: Info Localization service is disabled
+[2017.10.07-21.00.54:097][  0]LogConsoleResponse:Display: 
+[2017.10.07-21.00.54:228][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.07-21.00.54:228][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.07-21.00.54:662][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/' took 0.01s
+[2017.10.07-21.00.55:001][  0]SourceControl: Info Source control is disabled
+[2017.10.07-21.00.55:001][  0]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.00.55:002][  0]LightingResults: New page: Lighting Build
+[2017.10.07-21.00.55:032][  0]MapCheck: New page: Map Check
+[2017.10.07-21.00.55:032][  0]LightingResults: New page: Lighting Build
+[2017.10.07-21.00.55:309][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.00.55:310][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.00.55:322][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.00.55:359][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.03ms to complete.
+[2017.10.07-21.00.55:359][  0]LogFileHelpers: Loading map 'MainMenu' took 0.358
+[2017.10.07-21.00.55:468][  0]LogCollectionManager: Loaded 0 collections in 0.001234 seconds
+[2017.10.07-21.00.55:536][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Saved/Collections/' took 0.01s
+[2017.10.07-21.00.55:536][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/Developers/galla000/Collections/' took 0.01s
+[2017.10.07-21.00.55:536][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/Collections/' took 0.01s
+[2017.10.07-21.00.55:536][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.07-21.00.55:544][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2331 classes and 494 folders.
+[2017.10.07-21.00.55:593][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.07-21.00.55:621][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.07-21.00.55:655][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.07-21.00.55:726][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.07-21.00.55:730][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-21.00.55:732][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.07-21.00.55:737][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.07-21.00.55:825][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.10.07-21.00.56:288][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.07-21.00.56:343][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.10.07-21.00.56:343][  0]LogLoad: (Engine Initialization) Total time: 13.83 seconds
+[2017.10.07-21.00.56:343][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.11 seconds
+[2017.10.07-21.00.56:343][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.07-21.00.56:361][  0]LogOcInput: OculusInput pre-init called
+[2017.10.07-21.00.56:361][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.10.07-21.00.56:361][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.10.07-21.00.56:361][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.10.07-21.00.56:361][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.10.07-21.00.56:361][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.10.07-21.00.56:361][  0]LogHMD: Starting GearVRController plugin
+[2017.10.07-21.00.56:375][  0]LogAssetRegistry: Asset discovery search completed in 8.3152 seconds
+[2017.10.07-21.00.56:377][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.07-21.00.56:377][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.10.07-21.00.56:379][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.07-21.00.56:417][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-21.01.00:737][141]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-21.01.00:932][141]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.01.00:973][141]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.01.00:973][141]LightingResults: New page: Lighting Build
+[2017.10.07-21.01.00:973][141]LoadErrors: New page: Loading map: NewWorld.umap
+[2017.10.07-21.01.00:974][141]MapCheck: New page: Map Check
+[2017.10.07-21.01.00:974][141]LightingResults: New page: Lighting Build
+[2017.10.07-21.01.01:031][141]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.01.01:061][141]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.01.01:100][141]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.475ms to complete.
+[2017.10.07-21.01.01:100][141]LogFileHelpers: Loading map 'NewWorld' took 0.128
+[2017.10.07-21.01.15:972][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.10.07-21.01.35:602][772]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.01.35:642][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.01.35:642][772]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:01:35 PM)
+[2017.10.07-21.01.35:642][772]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.01.35:643][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001291s)
+[2017.10.07-21.01.35:644][772]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.01.35:644][772]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2017.10.07-21.01.35:644][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.001945s)
+[2017.10.07-21.01.35:654][772]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.01.35:662][772]LogInit: FAudioDevice initialized.
+[2017.10.07-21.01.35:707][772]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.01.35:715][772]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.01.35
+[2017.10.07-21.01.35:715][772]LogWorld: Bringing up level for play took: 0.002153
+[2017.10.07-21.01.35:752][772]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.10.07-21.01.35:753][772]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld -0.418
+[2017.10.07-21.01.55:259][301]LogBlueprintUserMessages: [VehicleBlueprint] Reset
+[2017.10.07-21.02.02:210][460]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.10.07-21.02.05:560][509]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.02.05:579][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.02.05:579][509]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:02:05 PM)
+[2017.10.07-21.02.05:579][509]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.02.05:583][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004052s)
+[2017.10.07-21.02.05:584][509]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.02.05:584][509]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2017.10.07-21.02.05:584][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.005156s)
+[2017.10.07-21.02.05:654][509]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.02.05:665][509]LogInit: FAudioDevice initialized.
+[2017.10.07-21.02.05:702][509]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.02.05:708][509]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.02.05
+[2017.10.07-21.02.05:710][509]LogWorld: Bringing up level for play took: 0.002095
+[2017.10.07-21.02.05:711][509]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld -0.461
+[2017.10.07-21.02.20:653][841]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.07-21.02.22:387][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TrackOne/NewWorld" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-21.02.22:483][841]LogSavePackage: Save=78.64ms
+[2017.10.07-21.02.22:483][841]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/NewWorld652989454F0801E7B80B799B46B3A698.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap'
+[2017.10.07-21.02.22:485][841]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap
+[2017.10.07-21.02.22:504][841]LogFileHelpers: Saving map 'NewWorld' took 0.159
+[2017.10.07-21.02.22:505][841]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.02.22:505][841]LightingResults: New page: Lighting Build
+[2017.10.07-21.02.22:505][841]LoadErrors: New page: Loading map: VehicleAdvExampleMap.umap
+[2017.10.07-21.02.22:533][841]MapCheck: New page: Map Check
+[2017.10.07-21.02.22:533][841]LightingResults: New page: Lighting Build
+[2017.10.07-21.02.22:617][841]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.02.22:645][841]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.02.22:687][841]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.147ms to complete.
+[2017.10.07-21.02.22:687][841]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 0.183
+[2017.10.07-21.02.22:688][841]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-21.02.27:869][939]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.02.27:886][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.02.27:887][939]PIE: New page: PIE session: VehicleAdvExampleMap (Oct 7, 2017, 1:02:27 PM)
+[2017.10.07-21.02.27:887][939]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.10.07-21.02.27:918][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030494s)
+[2017.10.07-21.02.27:918][939]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.07-21.02.27:919][939]LogPlayLevel: PIE: World Init took: (0.001009s)
+[2017.10.07-21.02.27:919][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.032055s)
+[2017.10.07-21.02.27:931][939]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.02.27:940][939]LogInit: FAudioDevice initialized.
+[2017.10.07-21.02.28:005][939]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.02.28:016][939]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.10.07-17.02.28
+[2017.10.07-21.02.28:016][939]LogWorld: Bringing up level for play took: 0.005937
+[2017.10.07-21.02.28:017][939]PIE: Info Play in editor start time for /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.153
+[2017.10.07-21.02.35:104][125]PIE:Warning: Warning Invalid Simulate Options: Body (1M_Cube_2_DM_BP_229.Destructible 1M_Cube_2_DM) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.07-21.02.41:090][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_70)
+[2017.10.07-21.03.00:117][659]Cmd: EDIT COPY
+[2017.10.07-21.03.03:203][721]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.03.03:216][721]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.03.03:216][721]LightingResults: New page: Lighting Build
+[2017.10.07-21.03.03:217][721]LoadErrors: New page: Loading map: NewWorld.umap
+[2017.10.07-21.03.03:219][721]MapCheck: New page: Map Check
+[2017.10.07-21.03.03:219][721]LightingResults: New page: Lighting Build
+[2017.10.07-21.03.03:274][721]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.03.03:304][721]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.03.03:346][721]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.293ms to complete.
+[2017.10.07-21.03.03:346][721]LogFileHelpers: Loading map 'NewWorld' took 0.130
+[2017.10.07-21.03.07:336][801]Cmd: EDIT PASTE
+[2017.10.07-21.03.42:688][480]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.03.42:712][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.03.42:712][480]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:03:42 PM)
+[2017.10.07-21.03.42:712][480]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.03.42:714][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001898s)
+[2017.10.07-21.03.42:715][480]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.03.42:716][480]LogPlayLevel: PIE: World Init took: (0.001715s)
+[2017.10.07-21.03.42:716][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.003926s)
+[2017.10.07-21.03.42:740][480]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.03.42:751][480]LogInit: FAudioDevice initialized.
+[2017.10.07-21.03.42:788][480]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.03.42:796][480]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.03.42
+[2017.10.07-21.03.42:797][480]LogWorld: Bringing up level for play took: 0.002625
+[2017.10.07-21.03.42:797][480]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld 0.626
+[2017.10.07-21.03.55:160][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full)
+[2017.10.07-21.04.17:032][196]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.04.17:054][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.04.17:055][196]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:04:17 PM)
+[2017.10.07-21.04.17:055][196]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.04.17:056][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001502s)
+[2017.10.07-21.04.17:057][196]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.04.17:057][196]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2017.10.07-21.04.17:057][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.002709s)
+[2017.10.07-21.04.17:071][196]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.04.17:080][196]LogInit: FAudioDevice initialized.
+[2017.10.07-21.04.17:121][196]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.04.17:130][196]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.04.17
+[2017.10.07-21.04.17:131][196]LogWorld: Bringing up level for play took: 0.003660
+[2017.10.07-21.04.17:132][196]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld 0.961
+[2017.10.07-21.04.30:002][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full)
+[2017.10.07-21.04.37:499][637]Cmd: TRANSACTION UNDO
+[2017.10.07-21.04.37:499][637]LogEditorTransaction: Undo Scale Actors
+[2017.10.07-21.04.37:660][637]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-21.04.45:084][775]Cmd: EDIT PASTE
+[2017.10.07-21.05.11:762][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full)
+[2017.10.07-21.05.24:624][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full2)
+[2017.10.07-21.05.33:754][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full)
+[2017.10.07-21.05.41:596][637]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full2)
+[2017.10.07-21.05.57:819][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full)
+[2017.10.07-21.05.58:976][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full)
+[2017.10.07-21.06.03:037][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full2)
+[2017.10.07-21.06.32:426][481]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.06.32:449][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.06.32:449][481]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:06:32 PM)
+[2017.10.07-21.06.32:449][481]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.06.32:452][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002174s)
+[2017.10.07-21.06.32:452][481]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.06.32:452][481]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.10.07-21.06.32:452][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.002974s)
+[2017.10.07-21.06.32:465][481]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.06.32:476][481]LogInit: FAudioDevice initialized.
+[2017.10.07-21.06.32:516][481]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.06.32:526][481]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.06.32
+[2017.10.07-21.06.32:526][481]LogWorld: Bringing up level for play took: 0.003575
+[2017.10.07-21.06.32:527][481]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld 0.356
+[2017.10.07-21.06.55:624][ 91]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.06.55:647][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.06.55:647][ 91]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:06:55 PM)
+[2017.10.07-21.06.55:647][ 91]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.06.55:651][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003806s)
+[2017.10.07-21.06.55:652][ 91]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.06.55:652][ 91]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2017.10.07-21.06.55:652][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.004651s)
+[2017.10.07-21.06.55:663][ 91]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.06.55:673][ 91]LogInit: FAudioDevice initialized.
+[2017.10.07-21.06.55:713][ 91]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.06.55:723][ 91]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.06.55
+[2017.10.07-21.06.55:723][ 91]LogWorld: Bringing up level for play took: 0.003814
+[2017.10.07-21.06.55:724][ 91]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld -0.447
+[2017.10.07-21.07.01:591][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TrackOne/NewWorld" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-21.07.01:630][212]LogSavePackage: Save=27.41ms
+[2017.10.07-21.07.01:630][212]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/NewWorld00F494904A52121348E516A0EE44D17A.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap'
+[2017.10.07-21.07.01:631][212]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap
+[2017.10.07-21.07.01:659][212]LogFileHelpers: Saving map 'NewWorld' took 0.116
+[2017.10.07-21.08.17:854][806]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.08.17:869][806]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.08.17:869][806]LightingResults: New page: Lighting Build
+[2017.10.07-21.08.17:869][806]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-21.08.17:870][806]MapCheck: New page: Map Check
+[2017.10.07-21.08.17:870][806]LightingResults: New page: Lighting Build
+[2017.10.07-21.08.17:926][806]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.08.17:955][806]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.08.17:999][806]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.322ms to complete.
+[2017.10.07-21.08.17:999][806]LogFileHelpers: Loading map 'MainMenu' took 0.131
+[2017.10.07-21.08.42:001][571]LogLinker: Can't find file '/Game/Maps/MapSelectMenu/MapSelectWidget'
+[2017.10.07-21.08.42:002][571]LogLinker: Can't find file '/Game/Maps/MapSelectMenu/MapSelectWidget'
+[2017.10.07-21.09.25:670][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelect" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelect.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-21.09.25:686][937]LogSavePackage: Save=7.05ms
+[2017.10.07-21.09.25:686][937]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelect3A7D41074801FC589D9B92A97256AEF1.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelect.umap'
+[2017.10.07-21.09.25:688][937]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelect.umap
+[2017.10.07-21.09.25:688][937]LogFileHelpers: Saving map 'MapSelect' took 0.062
+[2017.10.07-21.09.25:688][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.09.25:697][937]LogSavePackage: Save=7.99ms
+[2017.10.07-21.09.25:697][937]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidgetAB61686B4EDC59718713D5857450B668.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.09.25:698][937]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.09.25:700][937]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.09.25:700][937]LightingResults: New page: Lighting Build
+[2017.10.07-21.09.25:700][937]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-21.09.25:701][937]MapCheck: New page: Map Check
+[2017.10.07-21.09.25:701][937]LightingResults: New page: Lighting Build
+[2017.10.07-21.09.25:736][937]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.09.25:798][937]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.09.25:845][937]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.09.25:887][937]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.617ms to complete.
+[2017.10.07-21.09.25:888][937]LogFileHelpers: Loading map 'MainMenu' took 0.189
+[2017.10.07-21.09.42:094][442]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.10.07-21.09.42:691][442]LogSlate: Took 0.004146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.07-21.14.28:946][603]BlueprintLog: New page: Compile MapSelectWidget
+[2017.10.07-21.14.29:110][603]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.07-21.14.29:667][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.14.30:189][616]LogSavePackage: Save=513.48ms
+[2017.10.07-21.14.30:189][616]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidgetF1DD9CAB499ECCCD7437E4906CF41FAC.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.14.30:190][616]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.15.48:172][573]LogBlueprint:Warning: [Compiler ] Warning Leak Detected!  Button_305 ( Button ) still has living Slate widgets, it or the parent CanvasPanel_0 ( CanvasPanel ) is keeping them in memory.  Release all Slate resources in ReleaseSlateResources().
+[2017.10.07-21.16.40:049][863]BlueprintLog: New page: Compile MapSelectWidget
+[2017.10.07-21.16.40:224][863]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.07-21.16.40:829][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.16.40:853][877]LogSavePackage: Save=20.16ms
+[2017.10.07-21.16.40:853][877]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidgetB5CB1670407A2FAF36A6AE9495EE08F3.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.16.40:854][877]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.16.53:537][199]LogSlate: Took 0.008066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.07-21.17.47:738][533]BlueprintLog: New page: Compile MapSelectWidget
+[2017.10.07-21.17.47:883][533]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.07-21.17.48:395][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.17.48:425][545]LogSavePackage: Save=26.89ms
+[2017.10.07-21.17.48:425][545]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidget29AAEBDE4C57F4496B222799CFBAE345.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.17.48:427][545]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.17.49:586][575]BlueprintLog: New page: Compile MainMenuWidget
+[2017.10.07-21.17.49:739][575]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.07-21.17.50:449][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu/MainMenuWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenuWidget.uasset" SILENT=true
+[2017.10.07-21.17.50:491][592]LogSavePackage: Save=33.73ms
+[2017.10.07-21.17.50:491][592]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MainMenuWidget24BDCFAE4201D5BE8C0416A30C8B7842.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenuWidget.uasset'
+[2017.10.07-21.17.50:492][592]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenuWidget.uasset
+[2017.10.07-21.17.53:951][688]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.17.53:951][688]LightingResults: New page: Lighting Build
+[2017.10.07-21.17.53:952][688]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-21.17.53:952][688]MapCheck: New page: Map Check
+[2017.10.07-21.17.53:952][688]LightingResults: New page: Lighting Build
+[2017.10.07-21.17.53:980][688]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.17.54:071][688]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.17.54:106][688]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.17.54:156][688]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.085ms to complete.
+[2017.10.07-21.17.54:157][688]LogFileHelpers: Loading map 'MainMenu' took 0.208
+[2017.10.07-21.17.55:157][720]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.17.55:191][720]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.17.55:191][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.17.55:191][720]PIE: New page: PIE session: MainMenu (Oct 7, 2017, 1:17:55 PM)
+[2017.10.07-21.17.55:191][720]LogPlayLevel: Creating play world package: /Game/Maps/MainMenu/UEDPIE_0_MainMenu
+[2017.10.07-21.17.55:192][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000961s)
+[2017.10.07-21.17.55:193][720]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.17.55:194][720]LogPlayLevel: PIE: World Init took: (0.001574s)
+[2017.10.07-21.17.55:194][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu/MainMenu.MainMenu to /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.003007s)
+[2017.10.07-21.17.55:216][720]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.17.55:228][720]LogInit: FAudioDevice initialized.
+[2017.10.07-21.17.55:258][720]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.17.55:265][720]LogWorld: Bringing World /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.07-17.17.55
+[2017.10.07-21.17.55:265][720]LogWorld: Bringing up level for play took: 0.000785
+[2017.10.07-21.17.55:267][720]PIE: Info Play in editor start time for /Game/Maps/MainMenu/UEDPIE_0_MainMenu -0.905
+[2017.10.07-21.17.55:267][720]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.17.58:141][837]LogNet: Browse: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.17.58:166][837]LogLoad: LoadMap: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.17.58:184][837]Cmd: MEM
+[2017.10.07-21.17.58:197][837]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.17.58:197][837]LogMemory: Process Physical Memory: 1409.67 MB used, 1431.00 MB peak
+[2017.10.07-21.17.58:197][837]LogMemory: Process Virtual Memory: 1322.67 MB used, 1327.35 MB peak
+[2017.10.07-21.17.58:197][837]LogMemory: Physical Memory: 5752.68 MB used,  26896.34 MB free, 32649.02 MB total
+[2017.10.07-21.17.58:197][837]LogMemory: Virtual Memory: 2203.45 MB used,  26896.34 MB free, 134217728.00 MB total
+[2017.10.07-21.17.58:197][837]LogMemory: 
+[2017.10.07-21.17.58:197][837]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.17.58:698][837]LogAIModule: Creating AISystem for world MapSelect
+[2017.10.07-21.17.58:699][837]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.17.58:704][837]LogWorld: Bringing World /Game/Maps/MapSelectMenu/UEDPIE_0_MapSelect.MapSelect up for play (max tick rate 60) at 2017.10.07-17.17.58
+[2017.10.07-21.17.58:704][837]LogWorld: Bringing up level for play took: 0.000935
+[2017.10.07-21.17.58:704][837]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.07-21.17.58:705][837]LogLoad: Took 0.538321 seconds to LoadMap(/Game/Maps/MapSelectMenu/MapSelect)
+[2017.10.07-21.18.01:674][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.18.01:710][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.18.06:707][120]LogAIModule: Creating AISystem for world MapSelect
+[2017.10.07-21.18.06:724][120]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelect.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.18.06:724][120]LightingResults: New page: Lighting Build
+[2017.10.07-21.18.06:725][120]LoadErrors: New page: Loading map: MapSelect.umap
+[2017.10.07-21.18.06:725][120]MapCheck: New page: Map Check
+[2017.10.07-21.18.06:725][120]LightingResults: New page: Lighting Build
+[2017.10.07-21.18.06:838][120]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.18.06:889][120]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.18.06:934][120]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.207ms to complete.
+[2017.10.07-21.18.06:934][120]LogFileHelpers: Loading map 'MapSelect' took 0.211
+[2017.10.07-21.18.19:539][515]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.18.19:564][515]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.18.19:564][515]LightingResults: New page: Lighting Build
+[2017.10.07-21.18.19:565][515]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-21.18.19:599][515]MapCheck: New page: Map Check
+[2017.10.07-21.18.19:599][515]LightingResults: New page: Lighting Build
+[2017.10.07-21.18.19:739][515]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.18.19:774][515]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.18.19:823][515]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.566ms to complete.
+[2017.10.07-21.18.19:823][515]LogFileHelpers: Loading map 'MainMenu' took 0.259
+[2017.10.07-21.18.36:448][ 64]LogAIModule: Creating AISystem for world MapSelect
+[2017.10.07-21.18.36:466][ 64]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelect.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.18.36:466][ 64]LightingResults: New page: Lighting Build
+[2017.10.07-21.18.36:466][ 64]LoadErrors: New page: Loading map: MapSelect.umap
+[2017.10.07-21.18.36:467][ 64]MapCheck: New page: Map Check
+[2017.10.07-21.18.36:467][ 64]LightingResults: New page: Lighting Build
+[2017.10.07-21.18.36:587][ 64]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.18.36:622][ 64]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.18.36:670][ 64]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.509ms to complete.
+[2017.10.07-21.18.36:670][ 64]LogFileHelpers: Loading map 'MapSelect' took 0.206
+[2017.10.07-21.18.51:197][641]BlueprintLog: New page: Compile MapSelect
+[2017.10.07-21.18.52:916][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelect" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelect.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-21.18.53:025][684]LogSavePackage: Save=86.74ms
+[2017.10.07-21.18.53:025][684]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelect18338E6340D6CF37CA9EB2BD2CBE5347.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelect.umap'
+[2017.10.07-21.18.53:026][684]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelect.umap
+[2017.10.07-21.18.53:050][684]LogFileHelpers: Saving map 'MapSelect' took 0.183
+[2017.10.07-21.18.59:145][867]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.18.59:164][867]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.18.59:164][867]LightingResults: New page: Lighting Build
+[2017.10.07-21.18.59:164][867]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-21.18.59:165][867]MapCheck: New page: Map Check
+[2017.10.07-21.18.59:165][867]LightingResults: New page: Lighting Build
+[2017.10.07-21.18.59:346][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.18.59:385][867]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.18.59:430][867]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.128ms to complete.
+[2017.10.07-21.18.59:430][867]LogFileHelpers: Loading map 'MainMenu' took 0.268
+[2017.10.07-21.19.00:600][906]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.19.00:619][906]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.19.00:619][906]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.19.00:619][906]PIE: New page: PIE session: MainMenu (Oct 7, 2017, 1:19:00 PM)
+[2017.10.07-21.19.00:619][906]LogPlayLevel: Creating play world package: /Game/Maps/MainMenu/UEDPIE_0_MainMenu
+[2017.10.07-21.19.00:620][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000833s)
+[2017.10.07-21.19.00:621][906]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.19.00:621][906]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2017.10.07-21.19.00:621][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu/MainMenu.MainMenu to /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.001879s)
+[2017.10.07-21.19.00:635][906]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.19.00:642][906]LogInit: FAudioDevice initialized.
+[2017.10.07-21.19.00:677][906]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.19.00:684][906]LogWorld: Bringing World /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.07-17.19.00
+[2017.10.07-21.19.00:684][906]LogWorld: Bringing up level for play took: 0.000895
+[2017.10.07-21.19.00:686][906]PIE: Info Play in editor start time for /Game/Maps/MainMenu/UEDPIE_0_MainMenu 0.515
+[2017.10.07-21.19.00:686][906]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.19.02:811][993]LogNet: Browse: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.19.02:834][993]LogLoad: LoadMap: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.19.02:852][993]Cmd: MEM
+[2017.10.07-21.19.02:867][993]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.19.02:867][993]LogMemory: Process Physical Memory: 1563.70 MB used, 1578.31 MB peak
+[2017.10.07-21.19.02:867][993]LogMemory: Process Virtual Memory: 1515.19 MB used, 1534.50 MB peak
+[2017.10.07-21.19.02:867][993]LogMemory: Physical Memory: 5940.82 MB used,  26708.21 MB free, 32649.02 MB total
+[2017.10.07-21.19.02:867][993]LogMemory: Virtual Memory: 2383.95 MB used,  26708.21 MB free, 134217728.00 MB total
+[2017.10.07-21.19.02:867][993]LogMemory: 
+[2017.10.07-21.19.02:867][993]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.19.02:917][993]LogAIModule: Creating AISystem for world MapSelect
+[2017.10.07-21.19.02:918][993]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.19.02:923][993]LogWorld: Bringing World /Game/Maps/MapSelectMenu/UEDPIE_0_MapSelect.MapSelect up for play (max tick rate 60) at 2017.10.07-17.19.02
+[2017.10.07-21.19.02:923][993]LogWorld: Bringing up level for play took: 0.000903
+[2017.10.07-21.19.02:923][993]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.07-21.19.02:925][993]LogLoad: Took 0.090533 seconds to LoadMap(/Game/Maps/MapSelectMenu/MapSelect)
+[2017.10.07-21.19.05:151][ 86]LogNet: Browse: /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap
+[2017.10.07-21.19.05:173][ 86]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap
+[2017.10.07-21.19.05:193][ 86]Cmd: MEM
+[2017.10.07-21.19.05:209][ 86]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.19.05:209][ 86]LogMemory: Process Physical Memory: 1567.70 MB used, 1582.93 MB peak
+[2017.10.07-21.19.05:209][ 86]LogMemory: Process Virtual Memory: 1518.25 MB used, 1534.50 MB peak
+[2017.10.07-21.19.05:209][ 86]LogMemory: Physical Memory: 5945.26 MB used,  26703.76 MB free, 32649.02 MB total
+[2017.10.07-21.19.05:209][ 86]LogMemory: Virtual Memory: 2386.76 MB used,  26703.76 MB free, 134217728.00 MB total
+[2017.10.07-21.19.05:209][ 86]LogMemory: 
+[2017.10.07-21.19.05:209][ 86]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.19.05:665][ 86]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.07-21.19.05:665][ 86]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.19.05:682][ 86]PIE:Warning: Warning Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.10.07-21.19.05:683][ 86]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.10.07-17.19.05
+[2017.10.07-21.19.05:683][ 86]LogWorld: Bringing up level for play took: 0.012981
+[2017.10.07-21.19.05:685][ 86]LogLoad: Took 0.511348 seconds to LoadMap(/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap)
+[2017.10.07-21.19.08:254][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.19.08:323][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.19.46:249][ 14]BlueprintLog: New page: Compile MapSelectWidget
+[2017.10.07-21.19.46:391][ 14]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.07-21.19.47:223][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.19.47:604][ 32]LogSavePackage: Save=374.08ms
+[2017.10.07-21.19.47:604][ 32]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidgetB8D7833A46EF23BFB87D6AB0181B5524.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.19.47:605][ 32]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.19.53:717][189]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.19.53:717][189]LightingResults: New page: Lighting Build
+[2017.10.07-21.19.53:718][189]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-21.19.53:719][189]MapCheck: New page: Map Check
+[2017.10.07-21.19.53:719][189]LightingResults: New page: Lighting Build
+[2017.10.07-21.19.53:805][189]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.19.53:990][189]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.19.54:035][189]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.19.54:082][189]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.163ms to complete.
+[2017.10.07-21.19.54:082][189]LogFileHelpers: Loading map 'MainMenu' took 0.366
+[2017.10.07-21.19.54:870][214]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.19.54:894][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.19.54:894][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.19.54:895][214]PIE: New page: PIE session: MainMenu (Oct 7, 2017, 1:19:54 PM)
+[2017.10.07-21.19.54:895][214]LogPlayLevel: Creating play world package: /Game/Maps/MainMenu/UEDPIE_0_MainMenu
+[2017.10.07-21.19.54:896][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000962s)
+[2017.10.07-21.19.54:896][214]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.19.54:896][214]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2017.10.07-21.19.54:896][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu/MainMenu.MainMenu to /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.001817s)
+[2017.10.07-21.19.54:917][214]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.19.54:928][214]LogInit: FAudioDevice initialized.
+[2017.10.07-21.19.54:959][214]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.19.54:966][214]LogWorld: Bringing World /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.07-17.19.54
+[2017.10.07-21.19.54:966][214]LogWorld: Bringing up level for play took: 0.001058
+[2017.10.07-21.19.54:968][214]PIE: Info Play in editor start time for /Game/Maps/MainMenu/UEDPIE_0_MainMenu 0.798
+[2017.10.07-21.19.54:969][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.19.58:335][350]LogNet: Browse: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.19.58:359][350]LogLoad: LoadMap: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.19.58:380][350]Cmd: MEM
+[2017.10.07-21.19.58:395][350]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.19.58:395][350]LogMemory: Process Physical Memory: 1747.15 MB used, 1760.62 MB peak
+[2017.10.07-21.19.58:395][350]LogMemory: Process Virtual Memory: 1719.47 MB used, 1728.05 MB peak
+[2017.10.07-21.19.58:395][350]LogMemory: Physical Memory: 6187.42 MB used,  26461.61 MB free, 32649.02 MB total
+[2017.10.07-21.19.58:395][350]LogMemory: Virtual Memory: 2586.28 MB used,  26461.61 MB free, 134217728.00 MB total
+[2017.10.07-21.19.58:395][350]LogMemory: 
+[2017.10.07-21.19.58:395][350]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.19.58:438][350]LogAIModule: Creating AISystem for world MapSelect
+[2017.10.07-21.19.58:438][350]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.19.58:444][350]LogWorld: Bringing World /Game/Maps/MapSelectMenu/UEDPIE_0_MapSelect.MapSelect up for play (max tick rate 60) at 2017.10.07-17.19.58
+[2017.10.07-21.19.58:444][350]LogWorld: Bringing up level for play took: 0.000876
+[2017.10.07-21.19.58:444][350]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.07-21.19.58:445][350]LogLoad: Took 0.086160 seconds to LoadMap(/Game/Maps/MapSelectMenu/MapSelect)
+[2017.10.07-21.20.00:852][448]LogNet: Browse: /Game/Maps/MainMenu/MainMenu
+[2017.10.07-21.20.00:873][448]LogLoad: LoadMap: /Game/Maps/MainMenu/MainMenu
+[2017.10.07-21.20.00:893][448]Cmd: MEM
+[2017.10.07-21.20.00:909][448]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.20.00:909][448]LogMemory: Process Physical Memory: 1754.67 MB used, 1764.50 MB peak
+[2017.10.07-21.20.00:909][448]LogMemory: Process Virtual Memory: 1722.29 MB used, 1728.05 MB peak
+[2017.10.07-21.20.00:909][448]LogMemory: Physical Memory: 6199.42 MB used,  26449.60 MB free, 32649.02 MB total
+[2017.10.07-21.20.00:909][448]LogMemory: Virtual Memory: 2589.09 MB used,  26449.60 MB free, 134217728.00 MB total
+[2017.10.07-21.20.00:909][448]LogMemory: 
+[2017.10.07-21.20.00:909][448]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.20.00:909][448]LogPlayLevel: Creating play world package: /Game/Maps/MainMenu/UEDPIE_0_MainMenu
+[2017.10.07-21.20.00:910][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000737s)
+[2017.10.07-21.20.00:911][448]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.20.00:911][448]LogPlayLevel: PIE: World Init took: (0.000466s)
+[2017.10.07-21.20.00:911][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu/MainMenu.MainMenu to /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.001385s)
+[2017.10.07-21.20.00:911][448]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.20.00:918][448]LogWorld: Bringing World /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.07-17.20.00
+[2017.10.07-21.20.00:918][448]LogWorld: Bringing up level for play took: 0.000774
+[2017.10.07-21.20.00:918][448]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.07-21.20.00:919][448]LogLoad: Took 0.045466 seconds to LoadMap(/Game/Maps/MainMenu/UEDPIE_0_MainMenu)
+[2017.10.07-21.20.02:531][514]LogNet: Browse: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.20.02:555][514]LogLoad: LoadMap: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.20.02:576][514]Cmd: MEM
+[2017.10.07-21.20.02:594][514]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.20.02:594][514]LogMemory: Process Physical Memory: 1754.82 MB used, 1770.73 MB peak
+[2017.10.07-21.20.02:594][514]LogMemory: Process Virtual Memory: 1722.29 MB used, 1728.05 MB peak
+[2017.10.07-21.20.02:594][514]LogMemory: Physical Memory: 6200.04 MB used,  26448.99 MB free, 32649.02 MB total
+[2017.10.07-21.20.02:594][514]LogMemory: Virtual Memory: 2589.09 MB used,  26448.99 MB free, 134217728.00 MB total
+[2017.10.07-21.20.02:594][514]LogMemory: 
+[2017.10.07-21.20.02:594][514]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.20.02:607][514]LogAIModule: Creating AISystem for world MapSelect
+[2017.10.07-21.20.02:608][514]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.20.02:613][514]LogWorld: Bringing World /Game/Maps/MapSelectMenu/UEDPIE_0_MapSelect.MapSelect up for play (max tick rate 60) at 2017.10.07-17.20.02
+[2017.10.07-21.20.02:613][514]LogWorld: Bringing up level for play took: 0.000789
+[2017.10.07-21.20.02:613][514]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.07-21.20.02:614][514]LogLoad: Took 0.059534 seconds to LoadMap(/Game/Maps/MapSelectMenu/MapSelect)
+[2017.10.07-21.20.03:588][554]LogNet: Browse: /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap
+[2017.10.07-21.20.03:609][554]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap
+[2017.10.07-21.20.03:630][554]Cmd: MEM
+[2017.10.07-21.20.03:644][554]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.20.03:644][554]LogMemory: Process Physical Memory: 1754.89 MB used, 1770.86 MB peak
+[2017.10.07-21.20.03:644][554]LogMemory: Process Virtual Memory: 1722.31 MB used, 1728.05 MB peak
+[2017.10.07-21.20.03:644][554]LogMemory: Physical Memory: 6198.63 MB used,  26450.39 MB free, 32649.02 MB total
+[2017.10.07-21.20.03:644][554]LogMemory: Virtual Memory: 2589.09 MB used,  26450.39 MB free, 134217728.00 MB total
+[2017.10.07-21.20.03:644][554]LogMemory: 
+[2017.10.07-21.20.03:644][554]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.20.03:859][554]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.07-21.20.03:859][554]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.20.03:875][554]PIE:Warning: Warning Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.10.07-21.20.03:876][554]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.10.07-17.20.03
+[2017.10.07-21.20.03:877][554]LogWorld: Bringing up level for play took: 0.012873
+[2017.10.07-21.20.03:877][554]LogLoad: Took 0.268720 seconds to LoadMap(/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap)
+[2017.10.07-21.20.05:765][601]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.20.05:835][601]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.22.28:207][132]BlueprintLog: New page: Compile MapSelectWidget
+[2017.10.07-21.22.28:353][132]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.07-21.22.29:264][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.22.29:298][151]LogSavePackage: Save=29.80ms
+[2017.10.07-21.22.29:298][151]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidgetA1B3D9D948A986E07ABF08B4C05098C4.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.22.29:299][151]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.23.37:771][698]BlueprintLog: New page: Compile MapSelectWidget
+[2017.10.07-21.23.37:926][698]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.07-21.23.38:396][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.23.38:429][708]LogSavePackage: Save=30.57ms
+[2017.10.07-21.23.38:429][708]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidget1409FFE34D35B5F152003BA88F1566C5.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.23.38:430][708]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.23.57:514][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.23.57:547][135]LogSavePackage: Save=28.54ms
+[2017.10.07-21.23.57:547][135]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidgetCBC4C93641643C02FB01D69242B902AB.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.23.57:548][135]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.25.36:178][297]BlueprintLog: New page: Compile MapSelectWidget
+[2017.10.07-21.25.36:347][297]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.10.07-21.25.36:882][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MapSelectMenu/MapSelectWidget" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset" SILENT=true
+[2017.10.07-21.25.36:922][308]LogSavePackage: Save=31.87ms
+[2017.10.07-21.25.36:922][308]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/MapSelectWidget4CAAAA7A4BCEFA1A073245B4F6F15666.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset'
+[2017.10.07-21.25.36:923][308]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/MapSelectMenu/MapSelectWidget.uasset
+[2017.10.07-21.25.42:934][462]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.25.42:934][462]LightingResults: New page: Lighting Build
+[2017.10.07-21.25.42:935][462]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-21.25.42:935][462]MapCheck: New page: Map Check
+[2017.10.07-21.25.42:935][462]LightingResults: New page: Lighting Build
+[2017.10.07-21.25.43:018][462]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.25.43:221][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.25.43:261][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.25.43:309][462]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.12ms to complete.
+[2017.10.07-21.25.43:309][462]LogFileHelpers: Loading map 'MainMenu' took 0.376
+[2017.10.07-21.25.44:839][510]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.25.44:873][510]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.25.44:873][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.25.44:873][510]PIE: New page: PIE session: MainMenu (Oct 7, 2017, 1:25:44 PM)
+[2017.10.07-21.25.44:873][510]LogPlayLevel: Creating play world package: /Game/Maps/MainMenu/UEDPIE_0_MainMenu
+[2017.10.07-21.25.44:874][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000763s)
+[2017.10.07-21.25.44:874][510]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-21.25.44:874][510]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2017.10.07-21.25.44:875][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu/MainMenu.MainMenu to /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu (0.001724s)
+[2017.10.07-21.25.44:894][510]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.25.44:905][510]LogInit: FAudioDevice initialized.
+[2017.10.07-21.25.44:940][510]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.25.44:947][510]LogWorld: Bringing World /Game/Maps/MainMenu/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2017.10.07-17.25.44
+[2017.10.07-21.25.44:947][510]LogWorld: Bringing up level for play took: 0.000992
+[2017.10.07-21.25.44:949][510]PIE: Info Play in editor start time for /Game/Maps/MainMenu/UEDPIE_0_MainMenu 0.778
+[2017.10.07-21.25.44:949][510]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.25.47:650][619]LogNet: Browse: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.25.47:671][619]LogLoad: LoadMap: /Game/Maps/MapSelectMenu/MapSelect
+[2017.10.07-21.25.47:690][619]Cmd: MEM
+[2017.10.07-21.25.47:705][619]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.25.47:705][619]LogMemory: Process Physical Memory: 1796.92 MB used, 1810.28 MB peak
+[2017.10.07-21.25.47:705][619]LogMemory: Process Virtual Memory: 1727.56 MB used, 1752.88 MB peak
+[2017.10.07-21.25.47:705][619]LogMemory: Physical Memory: 6194.98 MB used,  26454.05 MB free, 32649.02 MB total
+[2017.10.07-21.25.47:705][619]LogMemory: Virtual Memory: 2612.23 MB used,  26454.05 MB free, 134217728.00 MB total
+[2017.10.07-21.25.47:705][619]LogMemory: 
+[2017.10.07-21.25.47:705][619]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.25.47:748][619]LogAIModule: Creating AISystem for world MapSelect
+[2017.10.07-21.25.47:748][619]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.25.47:752][619]LogWorld: Bringing World /Game/Maps/MapSelectMenu/UEDPIE_0_MapSelect.MapSelect up for play (max tick rate 60) at 2017.10.07-17.25.47
+[2017.10.07-21.25.47:752][619]LogWorld: Bringing up level for play took: 0.000811
+[2017.10.07-21.25.47:752][619]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.07-21.25.47:754][619]LogLoad: Took 0.082097 seconds to LoadMap(/Game/Maps/MapSelectMenu/MapSelect)
+[2017.10.07-21.26.00:989][165]LogNet: Browse: /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap
+[2017.10.07-21.26.01:013][165]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap
+[2017.10.07-21.26.01:037][165]Cmd: MEM
+[2017.10.07-21.26.01:051][165]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-21.26.01:051][165]LogMemory: Process Physical Memory: 1800.72 MB used, 1811.23 MB peak
+[2017.10.07-21.26.01:051][165]LogMemory: Process Virtual Memory: 1730.45 MB used, 1752.88 MB peak
+[2017.10.07-21.26.01:051][165]LogMemory: Physical Memory: 6164.77 MB used,  26484.25 MB free, 32649.02 MB total
+[2017.10.07-21.26.01:051][165]LogMemory: Virtual Memory: 2615.04 MB used,  26484.25 MB free, 134217728.00 MB total
+[2017.10.07-21.26.01:051][165]LogMemory: 
+[2017.10.07-21.26.01:051][165]Allocator Stats for TBB: (not implemented)
+[2017.10.07-21.26.01:258][165]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.10.07-21.26.01:259][165]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.26.01:272][165]PIE:Warning: Warning Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.10.07-21.26.01:273][165]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 60) at 2017.10.07-17.26.01
+[2017.10.07-21.26.01:274][165]LogWorld: Bringing up level for play took: 0.011320
+[2017.10.07-21.26.01:274][165]LogLoad: Took 0.260946 seconds to LoadMap(/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap)
+[2017.10.07-21.26.07:899][342]PIE:Warning: Warning Invalid Simulate Options: Body (1M_Cube_2_DM_BP2_107.Destructible 1M_Cube_2_DM) is set to simulate physics but Collision Enabled is incompatible
+[2017.10.07-21.26.18:868][653]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.26.18:936][653]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.10.07-21.29.38:793][227]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.29.38:818][227]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-21.29.38:818][227]LightingResults: New page: Lighting Build
+[2017.10.07-21.29.38:818][227]LoadErrors: New page: Loading map: NewWorld.umap
+[2017.10.07-21.29.38:819][227]MapCheck: New page: Map Check
+[2017.10.07-21.29.38:819][227]LightingResults: New page: Lighting Build
+[2017.10.07-21.29.39:027][227]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-21.29.39:063][227]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-21.29.39:109][227]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.738ms to complete.
+[2017.10.07-21.29.39:109][227]LogFileHelpers: Loading map 'NewWorld' took 0.293
+[2017.10.07-21.29.50:083][440]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.29.50:105][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.29.50:105][440]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:29:50 PM)
+[2017.10.07-21.29.50:105][440]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.29.50:107][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001635s)
+[2017.10.07-21.29.50:108][440]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.29.50:109][440]LogPlayLevel: PIE: World Init took: (0.001550s)
+[2017.10.07-21.29.50:109][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.003455s)
+[2017.10.07-21.29.50:126][440]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.29.50:136][440]LogInit: FAudioDevice initialized.
+[2017.10.07-21.29.50:171][440]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.29.50:179][440]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.29.50
+[2017.10.07-21.29.50:180][440]LogWorld: Bringing up level for play took: 0.002973
+[2017.10.07-21.29.50:181][440]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld 0.01
+[2017.10.07-21.30.05:960][752]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.30.05:981][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.30.05:981][752]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:30:05 PM)
+[2017.10.07-21.30.05:981][752]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.30.05:983][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001408s)
+[2017.10.07-21.30.05:984][752]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.30.05:984][752]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2017.10.07-21.30.05:984][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.003085s)
+[2017.10.07-21.30.06:004][752]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.30.06:015][752]LogInit: FAudioDevice initialized.
+[2017.10.07-21.30.06:051][752]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.30.06:061][752]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.30.06
+[2017.10.07-21.30.06:061][752]LogWorld: Bringing up level for play took: 0.003569
+[2017.10.07-21.30.06:062][752]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld -0.108
+[2017.10.07-21.30.16:293][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.10.07-21.30.20:609][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.10.07-21.30.35:620][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full2)
+[2017.10.07-21.30.37:152][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full)
+[2017.10.07-21.30.47:235][502]Cmd: EDIT COPY
+[2017.10.07-21.30.49:688][547]Cmd: EDIT PASTE
+[2017.10.07-21.31.23:945][194]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.10.07-21.31.34:072][382]Cmd: EDIT COPY
+[2017.10.07-21.31.35:802][414]Cmd: EDIT PASTE
+[2017.10.07-21.32.02:033][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2017.10.07-21.32.03:398][909]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-21.32.03:419][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-21.32.03:419][909]PIE: New page: PIE session: NewWorld (Oct 7, 2017, 1:32:03 PM)
+[2017.10.07-21.32.03:419][909]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_0_NewWorld
+[2017.10.07-21.32.03:421][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001969s)
+[2017.10.07-21.32.03:421][909]LogAIModule: Creating AISystem for world NewWorld
+[2017.10.07-21.32.03:421][909]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2017.10.07-21.32.03:421][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/NewWorld.NewWorld to /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld (0.002885s)
+[2017.10.07-21.32.03:441][909]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-21.32.03:452][909]LogInit: FAudioDevice initialized.
+[2017.10.07-21.32.03:492][909]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.07-21.32.03:500][909]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_0_NewWorld.NewWorld up for play (max tick rate 60) at 2017.10.07-17.32.03
+[2017.10.07-21.32.03:501][909]LogWorld: Bringing up level for play took: 0.003228
+[2017.10.07-21.32.03:503][909]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_0_NewWorld -0.668
+[2017.10.07-21.32.29:879][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TrackOne/NewWorld" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-21.32.29:933][547]LogSavePackage: Save=33.46ms
+[2017.10.07-21.32.29:933][547]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/NewWorld5A2223054975544CB15CBC9FA5738D69.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap'
+[2017.10.07-21.32.29:935][547]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/NewWorld.umap
+[2017.10.07-21.32.29:960][547]LogFileHelpers: Saving map 'NewWorld' took 0.131
+[2017.10.07-21.35.31:011][190]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.07-21.35.31:246][191]Cmd: QUIT_EDITOR
+[2017.10.07-21.35.32:109][191]LogExit: Preparing to exit.
+[2017.10.07-21.35.33:301][191]LogExit: Editor shut down
+[2017.10.07-21.35.33:305][191]LogExit: Transaction tracking system shut down
+[2017.10.07-21.35.33:453][191]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.07-21.35.33:453][191]LogExit: Object subsystem successfully closed.
+[2017.10.07-21.35.33:467][191]LogD3D11RHI: Shutdown
+[2017.10.07-21.35.33:467][191]LogD3D11RHI: CleanupD3DDevice
+[2017.10.07-21.35.33:568][191]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.07-21.35.33:585][191]LogModuleManager: Shutting down and abandoning module SequencerWidgets (534)
+[2017.10.07-21.35.33:585][191]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2017.10.07-21.35.33:585][191]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2017.10.07-21.35.33:586][191]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.10.07-21.35.33:586][191]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.10.07-21.35.33:586][191]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.10.07-21.35.33:586][191]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.10.07-21.35.33:586][191]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.10.07-21.35.33:586][191]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.10.07-21.35.33:588][191]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/ScrumLordRacing/Content/Collections/' was aborted.
+[2017.10.07-21.35.33:588][191]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/ScrumLordRacing/Content/Developers/galla000/Collections/' was aborted.
+[2017.10.07-21.35.33:588][191]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/ScrumLordRacing/Saved/Collections/' was aborted.
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.10.07-21.35.33:588][191]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.10.07-21.35.33:589][191]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.10.07-21.35.33:590][191]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.10.07-21.35.33:590][191]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.10.07-21.35.33:590][191]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.10.07-21.35.33:591][191]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.10.07-21.35.33:591][191]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.10.07-21.35.33:591][191]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.10.07-21.35.33:591][191]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.10.07-21.35.33:591][191]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.10.07-21.35.34:012][191]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.10.07-21.35.34:012][191]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.10.07-21.35.34:012][191]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.10.07-21.35.34:016][191]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.10.07-21.35.34:016][191]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.10.07-21.35.34:016][191]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.10.07-21.35.34:016][191]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.10.07-21.35.34:016][191]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.10.07-21.35.34:017][191]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.10.07-21.35.34:017][191]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.10.07-21.35.34:017][191]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.10.07-21.35.34:018][191]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.10.07-21.35.34:019][191]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.10.07-21.35.34:019][191]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.10.07-21.35.34:020][191]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.10.07-21.35.34:020][191]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.10.07-21.35.34:064][191]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.10.07-21.35.34:064][191]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.10.07-21.35.34:065][191]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.10.07-21.35.34:066][191]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.10.07-21.35.34:066][191]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.10.07-21.35.34:066][191]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.10.07-21.35.34:066][191]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.10.07-21.35.34:067][191]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.10.07-21.35.34:067][191]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.10.07-21.35.34:067][191]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.10.07-21.35.34:072][191]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.10.07-21.35.34:074][191]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.10.07-21.35.34:074][191]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.10.07-21.35.34:075][191]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.10.07-21.35.34:248][191]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module RawInput (300)
+[2017.10.07-21.35.34:252][191]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.07-21.35.34:253][191]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.07-21.35.34:254][191]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.07-21.35.34:356][191]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.07-21.35.34:457][191]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.07-21.35.34:457][191]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.07-21.35.34:457][191]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.07-21.35.34:457][191]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.07-21.35.34:457][191]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.07-21.35.34:457][191]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.07-21.35.34:458][191]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.07-21.35.34:458][191]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.07-21.35.34:458][191]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.07-21.35.34:458][191]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.07-21.35.34:458][191]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.07-21.35.34:458][191]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.07-21.35.34:459][191]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.07-21.35.34:459][191]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.07-21.35.34:459][191]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.07-21.35.34:459][191]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.07-21.35.34:459][191]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.07-21.35.34:459][191]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.07-21.35.34:460][191]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.07-21.35.34:460][191]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.07-21.35.34:460][191]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.07-21.35.34:460][191]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.07-21.35.34:460][191]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.07-21.35.34:460][191]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.07-21.35.34:461][191]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.07-21.35.34:461][191]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.07-21.35.34:461][191]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.07-21.35.34:461][191]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.07-21.35.34:461][191]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.07-21.35.34:463][191]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.07-21.35.34:463][191]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.07-21.35.34:463][191]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.07-21.35.34:463][191]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.07-21.35.34:463][191]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.07-21.35.34:463][191]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.07-21.35.34:562][191]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.07-21.35.34:562][191]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/ScrumLordRacing/Content/' was aborted.
+[2017.10.07-21.35.34:562][191]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.07-21.35.34:562][191]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.07-21.35.34:565][191]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.07-21.35.34:584][191]LogDerivedDataCache: Shutdown
+[2017.10.07-21.35.34:584][191]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.07-21.35.34:584][191]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.07-21.35.34:584][191]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.07-21.35.34:584][191]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.07-21.35.34:585][191]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.07-21.35.34:585][191]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.07-21.35.34:585][191]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.07-21.35.34:585][191]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.07-21.35.34:585][191]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.07-21.35.34:585][191]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.07-21.35.34:585][191]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.07-21.35.34:585][191]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.07-21.35.34:586][191]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.07-21.35.34:586][191]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.07-21.35.34:587][191]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.07-21.35.34:587][191]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.07-21.35.34:587][191]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.07-21.35.34:587][191]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B80EA3CDC-46AE-C061-E0DD-32AC9F1DAD52%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=665dec2a4cb07e4a71250ab9266ceb62%7Ce8b3675815f34300b2475ff9b011f0bc%7C4e8dcd73-f07b-479f-a7d5-ed78ed029b66&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.07-21.35.34:603][191]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.07-21.35.34:605][191]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.07-21.35.34:605][191]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.07-21.35.34:605][191]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.07-21.35.34:605][191]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.07-21.35.34:606][191]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.07-21.35.34:606][191]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.07-21.35.34:606][191]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.07-21.35.34:606][191]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.07-21.35.34:607][191]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.07-21.35.34:608][191]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.07-21.35.34:609][191]LogExit: Exiting.
+[2017.10.07-21.35.34:620][191]Log file closed, 10/07/17 17:35:34
