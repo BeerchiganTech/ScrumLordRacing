@@ -1,0 +1,824 @@
+﻿Log file open, 10/18/17 15:07:59
+LogInit:Display: Running engine for game: ScrumLordRacing
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(920474370) SRandInit(920474370).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.847087
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.18-19.08.00:269][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.18-19.08.00:269][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.18-19.08.00:337][  0]LogInit: Computer: ALEX
+[2017.10.18-19.08.00:337][  0]LogInit: User: galla000
+[2017.10.18-19.08.00:337][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.18-19.08.00:337][  0]LogInit: High frequency timer resolution =2.825496 MHz
+[2017.10.18-19.08.00:337][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2017.10.18-19.08.00:337][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.18-19.08.00:337][  0]LogMemory: Process Physical Memory: 271.64 MB used, 271.64 MB peak
+[2017.10.18-19.08.00:337][  0]LogMemory: Process Virtual Memory: 260.65 MB used, 260.65 MB peak
+[2017.10.18-19.08.00:337][  0]LogMemory: Physical Memory: 3445.09 MB used,  29203.93 MB free, 32649.02 MB total
+[2017.10.18-19.08.00:337][  0]LogMemory: Virtual Memory: 617.64 MB used,  29203.93 MB free, 134217728.00 MB total
+[2017.10.18-19.08.00:633][  0]LogInit: Using OS detected language (en-US).
+[2017.10.18-19.08.00:633][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.18-19.08.00:721][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.18-19.08.03:463][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.18-19.08.03:476][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.18-19.08.03:476][  0]LogD3D11RHI:       4054/0/16324 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.18-19.08.03:477][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.18-19.08.03:477][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.18-19.08.03:477][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.18-19.08.03:481][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.18-19.08.03:481][  0]LogD3D11RHI:     GPU DeviceId: 0x416 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.18-19.08.03:481][  0]LogWindows: EnumDisplayDevices:
+[2017.10.18-19.08.03:482][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.10.18-19.08.03:482][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.18-19.08.03:482][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.18-19.08.03:482][  0]LogWindows:    3. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.18-19.08.03:482][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.18-19.08.03:482][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2017.10.18-19.08.03:482][  0]LogD3D11RHI:   Driver Version: 10.18.10.3304 (internal:10.18.10.3304, unified:10.18.10.3304)
+[2017.10.18-19.08.03:482][  0]LogD3D11RHI:      Driver Date: 9-9-2013
+[2017.10.18-19.08.03:482][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.18-19.08.03:492][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.18-19.08.03:530][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 3)
+[2017.10.18-19.08.03:539][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/Unreal Games/ScrumLordRacing/Intermediate/Shaders/WorkingDirectory/2388/).
+[2017.10.18-19.08.03:540][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/galla_000/AppData/Local/Temp/UnrealShaderWorkingDir/C109C37B4C1AAACAC75F96824DD5B0B2/'.
+[2017.10.18-19.08.03:541][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.18-19.08.05:527][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.18-19.08.05:565][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.18-19.08.05:603][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.18-19.08.05:642][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.18-19.08.05:686][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.18-19.08.05:723][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.18-19.08.05:771][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.18-19.08.05:819][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.18-19.08.05:853][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.18-19.08.05:895][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.18-19.08.05:932][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.18-19.08.05:971][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.18-19.08.06:007][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.18-19.08.06:045][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.18-19.08.06:082][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.18-19.08.06:158][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.18-19.08.06:158][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.18-19.08.06:189][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.18-19.08.06:277][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.18-19.08.06:300][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.18-19.08.06:355][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.18-19.08.06:407][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.18-19.08.06:445][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.18-19.08.06:487][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.18-19.08.06:487][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.18-19.08.06:971][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.18-19.08.07:298][  0]LogDerivedDataCache: Loaded boot cache 0.33s 90MB C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.18-19.08.07:298][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.18-19.08.07:298][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Games/ScrumLordRacing/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.18-19.08.07:298][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.18-19.08.07:298][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Games/ScrumLordRacing/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.18-19.08.07:298][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.18-19.08.07:324][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.18-19.08.07:337][  0]LogDerivedDataCache: Using Local data cache path C:/Users/galla_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.18-19.08.07:350][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.18-19.08.07:355][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.18-19.08.07:365][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.18-19.08.07:365][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.18-19.08.08:379][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.18-19.08.08:577][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.18-19.08.08:799][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.18-19.08.08:848][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.18-19.08.08:886][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.18-19.08.08:886][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.18-19.08.08:886][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.18-19.08.10:327][  0]LogNetVersion: ScrumLordRacing , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1756322102)
+[2017.10.18-19.08.10:430][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
+[2017.10.18-19.08.10:535][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.064200 seconds
+[2017.10.18-19.08.10:543][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.18-19.08.10:543][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.10.18-19.08.10:543][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.18-19.08.10:602][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.18-19.08.15:270][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.18-19.08.15:304][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.18-19.08.15:947][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.18-19.08.16:424][  0]SourceControl: Info Source control is disabled
+[2017.10.18-19.08.16:424][  0]SourceControl: Info Source control is disabled
+[2017.10.18-19.08.16:484][  0]SourceControl: Info Source control is disabled
+[2017.10.18-19.08.16:524][  0]SourceControl: Info Source control is disabled
+[2017.10.18-19.08.17:156][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.18-19.08.17:659][  0]LogEngine: Initializing Engine...
+[2017.10.18-19.08.17:661][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.18-19.08.18:020][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.18-19.08.18:020][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.18-19.08.18:150][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.18-19.08.18:169][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-19.08.18:180][  0]LogInit: FAudioDevice initialized.
+[2017.10.18-19.08.18:218][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/galla_000/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.18-19.08.18:227][  0]LogInit: Texture streaming: Enabled
+[2017.10.18-19.08.18:304][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.18-19.08.18:505][  0]LogInit: Transaction tracking system initialized
+[2017.10.18-19.08.18:830][  0]BlueprintLog: New page: Editor Load
+[2017.10.18-19.08.19:657][  0]LocalizationService: Info Localization service is disabled
+[2017.10.18-19.08.20:259][  0]LogConsoleResponse:Display: 
+[2017.10.18-19.08.20:654][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.18-19.08.20:654][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.18-19.08.20:764][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/' took 0.01s
+[2017.10.18-19.08.21:617][  0]SourceControl: Info Source control is disabled
+[2017.10.18-19.08.21:618][  0]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.18-19.08.21:684][  0]LightingResults: New page: Lighting Build
+[2017.10.18-19.08.21:742][  0]MapCheck: New page: Map Check
+[2017.10.18-19.08.21:742][  0]LightingResults: New page: Lighting Build
+[2017.10.18-19.08.22:872][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.18-19.08.22:877][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.18-19.08.22:892][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.18-19.08.22:939][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.501ms to complete.
+[2017.10.18-19.08.22:939][  0]LogFileHelpers: Loading map 'MainMenu' took 1.321
+[2017.10.18-19.08.23:222][  0]LogCollectionManager: Loaded 0 collections in 0.001726 seconds
+[2017.10.18-19.08.23:308][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Saved/Collections/' took 0.01s
+[2017.10.18-19.08.23:308][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/Developers/galla000/Collections/' took 0.01s
+[2017.10.18-19.08.23:308][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Games/ScrumLordRacing/Content/Collections/' took 0.01s
+[2017.10.18-19.08.23:308][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.18-19.08.23:318][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2331 classes and 494 folders.
+[2017.10.18-19.08.23:372][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.18-19.08.23:773][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.18-19.08.23:814][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.18-19.08.24:076][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.18-19.08.24:094][  0]LogSlate: Took 0.007382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.18-19.08.24:102][  0]LogSlate: Took 0.006091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.18-19.08.24:117][  0]LogSlate: Took 0.007061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.18-19.08.24:273][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.10.18-19.08.24:544][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.18-19.08.24:606][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.18-19.08.24:606][  0]LogLoad: (Engine Initialization) Total time: 28.01 seconds
+[2017.10.18-19.08.24:606][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2017.10.18-19.08.24:606][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.18-19.08.24:624][  0]LogOcInput: OculusInput pre-init called
+[2017.10.18-19.08.24:624][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.10.18-19.08.24:624][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.10.18-19.08.24:624][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.10.18-19.08.24:624][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.10.18-19.08.24:624][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.10.18-19.08.24:624][  0]LogHMD: Starting GearVRController plugin
+[2017.10.18-19.08.24:676][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.18-19.08.24:737][  0]LogSlate: Took 0.005224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.18-19.08.24:741][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Unreal Games/ScrumLordRacing/Content/' took 0.10s
+[2017.10.18-19.08.24:789][  2]LogAssetRegistry: Asset discovery search completed in 14.3819 seconds
+[2017.10.18-19.08.24:793][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.18-19.08.24:793][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.10.18-19.08.27:640][171]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.18-19.08.29:599][288]AssetReimport: New page: Outstanding source content changes 11:08:29 AM
+[2017.10.18-19.08.29:602][288]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.fbx)
+[2017.10.18-19.08.29:620][288]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.10.18-19.08.29:620][288]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.10.18-19.08.29:620][288]LogFbx: ItemName: Model, ItemCount : 1
+[2017.10.18-19.08.29:628][288]LogFbx: Loading FBX Scene from D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.fbx
+[2017.10.18-19.08.29:637][288]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.18-19.08.35:029][288]LogFbx: Loading FBX Scene from D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.fbx
+[2017.10.18-19.08.35:036][288]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.18-19.08.35:050][288]LogStaticMesh: Building static mesh Volcanoblend...
+[2017.10.18-19.08.35:064][288]LogStaticMesh: Built static mesh [0.02s] /Game/Geometry/Meshes/Volcanoblend.Volcanoblend
+[2017.10.18-19.08.35:146][289]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.18-19.08.35:264][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Volcanoblend" FILE="D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset" SILENT=true
+[2017.10.18-19.08.35:280][289]LogSavePackage: Save=13.80ms
+[2017.10.18-19.08.35:280][289]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/Volcanoblend4758FA0340409891DED6AA91B71A37D1.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset'
+[2017.10.18-19.08.35:284][289]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset
+[2017.10.18-19.08.38:292][469]AssetReimport: Info Importing new asset /Game/Geometry/Meshes/Volcanoblend.
+[2017.10.18-19.08.46:127][888]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.18-19.08.47:531][888]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.08.47:576][888]Cmd: MAP LOAD FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/TrackOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.18-19.08.47:576][888]LightingResults: New page: Lighting Build
+[2017.10.18-19.08.47:576][888]LoadErrors: New page: Loading map: TrackOne.umap
+[2017.10.18-19.08.47:577][888]MapCheck: New page: Map Check
+[2017.10.18-19.08.47:577][888]LightingResults: New page: Lighting Build
+[2017.10.18-19.08.47:645][888]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.18-19.08.47:677][888]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.18-19.08.47:719][888]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.166ms to complete.
+[2017.10.18-19.08.47:719][888]LogFileHelpers: Loading map 'TrackOne' took 0.145
+[2017.10.18-19.08.51:966][129]LogActorFactory: Actor Factory created Volcanoblend
+[2017.10.18-19.08.52:906][185]LogActorFactory: Actor Factory created Volcanoblend
+[2017.10.18-19.09.28:605][298]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.18-19.09.28:748][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-19.09.28:751][298]PIE: New page: PIE session: TrackOne (Oct 18, 2017, 11:09:28 AM)
+[2017.10.18-19.09.28:751][298]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_1_TrackOne
+[2017.10.18-19.09.28:757][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006365s)
+[2017.10.18-19.09.28:758][298]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.09.28:758][298]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.10.18-19.09.28:758][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/TrackOne.TrackOne to /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne (0.007139s)
+[2017.10.18-19.09.28:771][298]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-19.09.28:778][298]LogInit: FAudioDevice initialized.
+[2017.10.18-19.09.28:839][298]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.18-19.09.28:887][298]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne up for play (max tick rate 60) at 2017.10.18-15.09.28
+[2017.10.18-19.09.28:891][298]LogWorld: Bringing up level for play took: 0.025887
+[2017.10.18-19.09.28:959][298]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.10.18-19.09.28:959][298]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.09.28:960][298]LogTemp:Display: ParseSettings for IpNetDriver_0
+[2017.10.18-19.09.28:960][298]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.09.28:960][298]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.18-19.09.28:964][298]LogInit: WinSock: I am Alex (192.168.0.13:0)
+[2017.10.18-19.09.28:964][298]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.09.28:964][298]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.10.18-19.09.28:965][298]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_1_TrackOne -0.126
+[2017.10.18-19.09.28:966][298]PIE: New page: PIE session: TrackOne (Oct 18, 2017, 11:09:28 AM)
+[2017.10.18-19.09.29:014][298]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu/MainMenu
+[2017.10.18-19.09.29:014][298]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.09.29:014][298]LogTemp:Display: ParseSettings for IpNetDriver_1
+[2017.10.18-19.09.29:014][298]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.10.18-19.09.29:014][298]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.18-19.09.29:014][298]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.09.29:015][298]LogNet: Game client on port 7777, rate 10000
+[2017.10.18-19.09.29:015][298]LogNetVersion: ScrumLordRacing 1.0.0.0, NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3979961623)
+[2017.10.18-19.09.29:015][298]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.18-19.09.29:020][298]PIE: Info Play in editor start time for /Game/Maps/MainMenu/MainMenu -0.071
+[2017.10.18-19.09.29:027][298]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60061
+[2017.10.18-19.09.29:027][298]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 151080066173252005041194116208081156140067024243047096222069
+[2017.10.18-19.09.29:055][298]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 151080066173252005041194116208081156140067024243047096222069
+[2017.10.18-19.09.29:109][299]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60061
+[2017.10.18-19.09.29:109][299]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60061
+[2017.10.18-19.09.29:109][299]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.09.29:109][299]LogNet: NotifyAcceptedConnection: Name: TrackOne, TimeStamp: 10/18/17 15:09:29, [UNetConnection] RemoteAddr: 127.0.0.1:60061, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.18-19.09.29:109][299]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60061, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.18-19.09.29:109][299]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne: Accepted
+[2017.10.18-19.09.29:109][299]LogNet: Remote platform little endian=1
+[2017.10.18-19.09.29:109][299]LogNet: This platform little endian=1
+[2017.10.18-19.09.29:156][300]LogNet: Login request: /Game/Maps/MainMenu/MainMenu userId: Invalid
+[2017.10.18-19.09.29:159][300]LogNet: Welcomed by server (Level: /Game/Maps/TrackOne/UEDPIE_1_TrackOne, Game: /Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode.VehicleAdvGameMode_C)
+[2017.10.18-19.09.29:168][300]LogLoad: LoadMap: 127.0.0.1//Game/Maps/TrackOne/UEDPIE_1_TrackOne?game=/Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode.VehicleAdvGameMode_C
+[2017.10.18-19.09.29:176][300]Cmd: MEM
+[2017.10.18-19.09.29:188][300]LogMemory: Platform Memory Stats for Windows
+[2017.10.18-19.09.29:188][300]LogMemory: Process Physical Memory: 1067.93 MB used, 1097.43 MB peak
+[2017.10.18-19.09.29:188][300]LogMemory: Process Virtual Memory: 954.77 MB used, 997.29 MB peak
+[2017.10.18-19.09.29:188][300]LogMemory: Physical Memory: 4460.74 MB used,  28188.29 MB free, 32649.02 MB total
+[2017.10.18-19.09.29:188][300]LogMemory: Virtual Memory: 1690.95 MB used,  28188.29 MB free, 134217728.00 MB total
+[2017.10.18-19.09.29:188][300]LogMemory: 
+[2017.10.18-19.09.29:188][300]Allocator Stats for TBB: (not implemented)
+[2017.10.18-19.09.29:193][300]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.09.29:193][300]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.09.29:202][300]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_2_TrackOne.TrackOne up for play (max tick rate 60) at 2017.10.18-15.09.29
+[2017.10.18-19.09.29:202][300]LogWorld: Bringing up level for play took: 0.004739
+[2017.10.18-19.09.29:202][300]LogLoad: Took 0.034502 seconds to LoadMap(/Game/Maps/TrackOne/UEDPIE_1_TrackOne)
+[2017.10.18-19.09.29:215][301]LogNet: Client netspeed is 10000
+[2017.10.18-19.09.29:215][301]LogNet: Join request: /Game/Maps/MainMenu/MainMenu?SplitscreenCount=1
+[2017.10.18-19.09.29:217][301]LogNet: Join succeeded: 257
+[2017.10.18-19.09.29:229][302]LogRenderer: Reallocating scene render targets to support 1208x628 NumSamples 1 (Frame:1).
+[2017.10.18-19.10.01:463][235]LogBlueprintUserMessages: [VehicleBlueprint] Server: Reset
+[2017.10.18-19.10.02:392][291]LogBlueprintUserMessages: [VehicleBlueprint] Server: Reset
+[2017.10.18-19.10.03:292][345]LogBlueprintUserMessages: [VehicleBlueprint] Server: Reset
+[2017.10.18-19.10.04:058][391]LogBlueprintUserMessages: [VehicleBlueprint] Server: Reset
+[2017.10.18-19.10.04:509][418]LogBlueprintUserMessages: [VehicleBlueprint] Server: Reset
+[2017.10.18-19.10.05:528][473]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60061, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.10.18-19.10.05:528][473]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60061, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.18-19.10.05
+[2017.10.18-19.10.05:528][473]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60061, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None
+[2017.10.18-19.10.05:528][473]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.10.18-19.10.05:528][473]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.18-19.10.05
+[2017.10.18-19.10.05:528][473]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None
+[2017.10.18-19.10.05:530][473]LogExit: GameNetDriver None shut down
+[2017.10.18-19.10.05:531][473]LogExit: GameNetDriver None shut down
+[2017.10.18-19.10.06:699][542]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.18-19.10.06:716][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-19.10.06:718][542]PIE: New page: PIE session: TrackOne (Oct 18, 2017, 11:10:06 AM)
+[2017.10.18-19.10.06:718][542]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_1_TrackOne
+[2017.10.18-19.10.06:722][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004483s)
+[2017.10.18-19.10.06:723][542]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.10.06:723][542]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2017.10.18-19.10.06:723][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/TrackOne.TrackOne to /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne (0.005138s)
+[2017.10.18-19.10.06:735][542]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-19.10.06:742][542]LogInit: FAudioDevice initialized.
+[2017.10.18-19.10.06:771][542]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.18-19.10.06:780][542]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne up for play (max tick rate 60) at 2017.10.18-15.10.06
+[2017.10.18-19.10.06:781][542]LogWorld: Bringing up level for play took: 0.004010
+[2017.10.18-19.10.06:781][542]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.10.06:781][542]LogTemp:Display: ParseSettings for IpNetDriver_2
+[2017.10.18-19.10.06:781][542]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.10.06:782][542]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.18-19.10.06:782][542]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.10.06:782][542]LogNet: GameNetDriver IpNetDriver_2 IpNetDriver listening on port 7777
+[2017.10.18-19.10.06:782][542]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_1_TrackOne -0.308
+[2017.10.18-19.10.06:783][542]PIE: New page: PIE session: TrackOne (Oct 18, 2017, 11:10:06 AM)
+[2017.10.18-19.10.06:827][542]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu/MainMenu
+[2017.10.18-19.10.06:827][542]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.10.06:827][542]LogTemp:Display: ParseSettings for IpNetDriver_3
+[2017.10.18-19.10.06:827][542]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.10.18-19.10.06:827][542]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.18-19.10.06:827][542]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.10.06:827][542]LogNet: Game client on port 7777, rate 10000
+[2017.10.18-19.10.06:828][542]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_3, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.18-19.10.06:831][542]PIE: Info Play in editor start time for /Game/Maps/MainMenu/MainMenu -0.261
+[2017.10.18-19.10.06:837][542]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60062
+[2017.10.18-19.10.06:837][542]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 119120213006072009158149073044081064148108111252118246237000
+[2017.10.18-19.10.06:838][542]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 119120213006072009158149073044081064148108111252118246237000
+[2017.10.18-19.10.06:890][543]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60062
+[2017.10.18-19.10.06:890][543]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60062
+[2017.10.18-19.10.06:890][543]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.10.06:890][543]LogNet: NotifyAcceptedConnection: Name: TrackOne, TimeStamp: 10/18/17 15:10:06, [UNetConnection] RemoteAddr: 127.0.0.1:60062, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.18-19.10.06:890][543]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60062, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.18-19.10.06:890][543]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne: Accepted
+[2017.10.18-19.10.06:890][543]LogNet: Remote platform little endian=1
+[2017.10.18-19.10.06:890][543]LogNet: This platform little endian=1
+[2017.10.18-19.10.06:944][544]LogNet: Login request: /Game/Maps/MainMenu/MainMenu userId: Invalid
+[2017.10.18-19.10.06:950][544]LogNet: Welcomed by server (Level: /Game/Maps/TrackOne/UEDPIE_1_TrackOne, Game: /Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode.VehicleAdvGameMode_C)
+[2017.10.18-19.10.06:963][544]LogLoad: LoadMap: 127.0.0.1//Game/Maps/TrackOne/UEDPIE_1_TrackOne?game=/Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode.VehicleAdvGameMode_C
+[2017.10.18-19.10.06:976][544]Cmd: MEM
+[2017.10.18-19.10.06:987][544]LogMemory: Platform Memory Stats for Windows
+[2017.10.18-19.10.06:987][544]LogMemory: Process Physical Memory: 1072.11 MB used, 1097.43 MB peak
+[2017.10.18-19.10.06:987][544]LogMemory: Process Virtual Memory: 958.08 MB used, 997.29 MB peak
+[2017.10.18-19.10.06:987][544]LogMemory: Physical Memory: 4456.18 MB used,  28192.84 MB free, 32649.02 MB total
+[2017.10.18-19.10.06:987][544]LogMemory: Virtual Memory: 1698.95 MB used,  28192.84 MB free, 134217728.00 MB total
+[2017.10.18-19.10.06:987][544]LogMemory: 
+[2017.10.18-19.10.06:987][544]Allocator Stats for TBB: (not implemented)
+[2017.10.18-19.10.06:992][544]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.10.06:992][544]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.10.07:001][544]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_2_TrackOne.TrackOne up for play (max tick rate 60) at 2017.10.18-15.10.07
+[2017.10.18-19.10.07:001][544]LogWorld: Bringing up level for play took: 0.004148
+[2017.10.18-19.10.07:002][544]LogLoad: Took 0.038560 seconds to LoadMap(/Game/Maps/TrackOne/UEDPIE_1_TrackOne)
+[2017.10.18-19.10.07:012][545]LogNet: Client netspeed is 10000
+[2017.10.18-19.10.07:012][545]LogNet: Join request: /Game/Maps/MainMenu/MainMenu?SplitscreenCount=1
+[2017.10.18-19.10.07:013][545]LogNet: Join succeeded: 259
+[2017.10.18-19.10.16:032][ 80]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60062, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.10.18-19.10.16:032][ 80]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60062, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.18-19.10.16
+[2017.10.18-19.10.16:032][ 80]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60062, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_2, IsServer: YES, PC: None, Owner: None
+[2017.10.18-19.10.16:033][ 80]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.10.18-19.10.16:033][ 80]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.18-19.10.16
+[2017.10.18-19.10.16:033][ 80]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_3, IsServer: NO, PC: None, Owner: None
+[2017.10.18-19.10.16:035][ 80]LogExit: GameNetDriver None shut down
+[2017.10.18-19.10.16:036][ 80]LogExit: GameNetDriver None shut down
+[2017.10.18-19.10.22:042][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Volcanoblend)
+[2017.10.18-19.10.28:667][833]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Volcanoblend)
+[2017.10.18-19.10.30:649][917]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2017.10.18-19.11.15:876][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Volcanoblend" FILE="D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset" SILENT=true
+[2017.10.18-19.11.16:312][ 24]LogSavePackage: Save=37.58ms
+[2017.10.18-19.11.16:312][ 24]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/VolcanoblendB525315D4EA362AF0C6A18B89ACD0BB0.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset'
+[2017.10.18-19.11.16:314][ 24]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset
+[2017.10.18-19.12.24:038][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Geometry/Meshes/Volcanoblend" FILE="D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset" SILENT=true
+[2017.10.18-19.12.24:046][528]LogSavePackage: Save=5.36ms
+[2017.10.18-19.12.24:046][528]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/VolcanoblendFA1AFC6340628FFAAD742A8D7AE9C5A9.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset'
+[2017.10.18-19.12.24:048][528]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/Volcanoblend.uasset
+[2017.10.18-19.12.28:418][739]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.18-19.12.28:433][739]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-19.12.28:435][739]PIE: New page: PIE session: TrackOne (Oct 18, 2017, 11:12:28 AM)
+[2017.10.18-19.12.28:435][739]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_1_TrackOne
+[2017.10.18-19.12.28:440][739]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004926s)
+[2017.10.18-19.12.28:440][739]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.12.28:440][739]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2017.10.18-19.12.28:440][739]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/TrackOne.TrackOne to /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne (0.005577s)
+[2017.10.18-19.12.28:456][739]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-19.12.28:463][739]LogInit: FAudioDevice initialized.
+[2017.10.18-19.12.28:495][739]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.18-19.12.28:505][739]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne up for play (max tick rate 60) at 2017.10.18-15.12.28
+[2017.10.18-19.12.28:506][739]LogWorld: Bringing up level for play took: 0.004747
+[2017.10.18-19.12.28:506][739]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.12.28:506][739]LogTemp:Display: ParseSettings for IpNetDriver_4
+[2017.10.18-19.12.28:506][739]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.12.28:506][739]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.18-19.12.28:507][739]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.12.28:507][739]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 7777
+[2017.10.18-19.12.28:507][739]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_1_TrackOne -0.584
+[2017.10.18-19.12.28:508][739]PIE: New page: PIE session: TrackOne (Oct 18, 2017, 11:12:28 AM)
+[2017.10.18-19.12.28:551][739]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu/MainMenu
+[2017.10.18-19.12.28:551][739]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.12.28:551][739]LogTemp:Display: ParseSettings for IpNetDriver_5
+[2017.10.18-19.12.28:551][739]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.10.18-19.12.28:551][739]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.18-19.12.28:551][739]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.12.28:551][739]LogNet: Game client on port 7777, rate 10000
+[2017.10.18-19.12.28:551][739]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.18-19.12.28:555][739]PIE: Info Play in editor start time for /Game/Maps/MainMenu/MainMenu -0.535
+[2017.10.18-19.12.28:561][739]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61769
+[2017.10.18-19.12.28:561][739]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 054230227082253126218239166039060109000032120085088083240033
+[2017.10.18-19.12.28:563][739]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 054230227082253126218239166039060109000032120085088083240033
+[2017.10.18-19.12.28:628][740]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61769
+[2017.10.18-19.12.28:628][740]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61769
+[2017.10.18-19.12.28:628][740]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.12.28:628][740]LogNet: NotifyAcceptedConnection: Name: TrackOne, TimeStamp: 10/18/17 15:12:28, [UNetConnection] RemoteAddr: 127.0.0.1:61769, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.18-19.12.28:628][740]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61769, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.18-19.12.28:628][740]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne: Accepted
+[2017.10.18-19.12.28:628][740]LogNet: Remote platform little endian=1
+[2017.10.18-19.12.28:628][740]LogNet: This platform little endian=1
+[2017.10.18-19.12.28:692][741]LogNet: Login request: /Game/Maps/MainMenu/MainMenu userId: Invalid
+[2017.10.18-19.12.28:697][741]LogNet: Welcomed by server (Level: /Game/Maps/TrackOne/UEDPIE_1_TrackOne, Game: /Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode.VehicleAdvGameMode_C)
+[2017.10.18-19.12.28:713][741]LogLoad: LoadMap: 127.0.0.1//Game/Maps/TrackOne/UEDPIE_1_TrackOne?game=/Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode.VehicleAdvGameMode_C
+[2017.10.18-19.12.28:723][741]Cmd: MEM
+[2017.10.18-19.12.28:730][741]LogMemory: Platform Memory Stats for Windows
+[2017.10.18-19.12.28:730][741]LogMemory: Process Physical Memory: 1195.09 MB used, 1264.64 MB peak
+[2017.10.18-19.12.28:730][741]LogMemory: Process Virtual Memory: 1080.34 MB used, 1150.21 MB peak
+[2017.10.18-19.12.28:730][741]LogMemory: Physical Memory: 4573.11 MB used,  28075.91 MB free, 32649.02 MB total
+[2017.10.18-19.12.28:730][741]LogMemory: Virtual Memory: 1821.44 MB used,  28075.91 MB free, 134217728.00 MB total
+[2017.10.18-19.12.28:730][741]LogMemory: 
+[2017.10.18-19.12.28:730][741]Allocator Stats for TBB: (not implemented)
+[2017.10.18-19.12.28:736][741]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.12.28:736][741]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.12.28:744][741]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_2_TrackOne.TrackOne up for play (max tick rate 60) at 2017.10.18-15.12.28
+[2017.10.18-19.12.28:745][741]LogWorld: Bringing up level for play took: 0.003992
+[2017.10.18-19.12.28:745][741]LogLoad: Took 0.032345 seconds to LoadMap(/Game/Maps/TrackOne/UEDPIE_1_TrackOne)
+[2017.10.18-19.12.28:756][742]LogNet: Client netspeed is 10000
+[2017.10.18-19.12.28:756][742]LogNet: Join request: /Game/Maps/MainMenu/MainMenu?SplitscreenCount=1
+[2017.10.18-19.12.28:756][742]LogNet: Join succeeded: 261
+[2017.10.18-19.12.48:375][913]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61769, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.10.18-19.12.48:375][913]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61769, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.18-19.12.48
+[2017.10.18-19.12.48:375][913]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61769, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None
+[2017.10.18-19.12.48:375][913]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.10.18-19.12.48:375][913]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.18-19.12.48
+[2017.10.18-19.12.48:375][913]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None
+[2017.10.18-19.12.48:379][913]LogExit: GameNetDriver None shut down
+[2017.10.18-19.12.48:379][913]LogExit: GameNetDriver None shut down
+[2017.10.18-19.12.55:034][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Volcanoblend)
+[2017.10.18-19.12.58:492][517]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.18-19.12.58:507][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.18-19.12.58:508][517]PIE: New page: PIE session: TrackOne (Oct 18, 2017, 11:12:58 AM)
+[2017.10.18-19.12.58:508][517]LogPlayLevel: Creating play world package: /Game/Maps/TrackOne/UEDPIE_1_TrackOne
+[2017.10.18-19.12.58:513][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004845s)
+[2017.10.18-19.12.58:514][517]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.12.58:514][517]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2017.10.18-19.12.58:514][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TrackOne/TrackOne.TrackOne to /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne (0.005481s)
+[2017.10.18-19.12.58:525][517]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.18-19.12.58:531][517]LogInit: FAudioDevice initialized.
+[2017.10.18-19.12.58:560][517]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.10.18-19.12.58:569][517]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne up for play (max tick rate 60) at 2017.10.18-15.12.58
+[2017.10.18-19.12.58:570][517]LogWorld: Bringing up level for play took: 0.004033
+[2017.10.18-19.12.58:570][517]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.12.58:570][517]LogTemp:Display: ParseSettings for IpNetDriver_6
+[2017.10.18-19.12.58:570][517]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.12.58:570][517]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.10.18-19.12.58:571][517]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.12.58:571][517]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 7777
+[2017.10.18-19.12.58:571][517]PIE: Info Play in editor start time for /Game/Maps/TrackOne/UEDPIE_1_TrackOne -0.52
+[2017.10.18-19.12.58:572][517]PIE: New page: PIE session: TrackOne (Oct 18, 2017, 11:12:58 AM)
+[2017.10.18-19.12.58:610][517]LogNet: Browse: 127.0.0.1//Game/Maps/MainMenu/MainMenu
+[2017.10.18-19.12.58:610][517]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.12.58:610][517]LogTemp:Display: ParseSettings for IpNetDriver_7
+[2017.10.18-19.12.58:610][517]LogTemp:Display: ParseSettings for PendingNetDriver
+[2017.10.18-19.12.58:610][517]LogInit: WinSock: Socket queue 32768 / 32768
+[2017.10.18-19.12.58:611][517]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.12.58:611][517]LogNet: Game client on port 7777, rate 10000
+[2017.10.18-19.12.58:611][517]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL
+[2017.10.18-19.12.58:615][517]PIE: Info Play in editor start time for /Game/Maps/MainMenu/MainMenu -0.476
+[2017.10.18-19.12.58:620][517]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61770
+[2017.10.18-19.12.58:620][517]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 149254025064193117127191102077198079174218235044097056128153
+[2017.10.18-19.12.58:622][517]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 149254025064193117127191102077198079174218235044097056128153
+[2017.10.18-19.12.58:678][518]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61770
+[2017.10.18-19.12.58:678][518]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61770
+[2017.10.18-19.12.58:678][518]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.10.18-19.12.58:678][518]LogNet: NotifyAcceptedConnection: Name: TrackOne, TimeStamp: 10/18/17 15:12:58, [UNetConnection] RemoteAddr: 127.0.0.1:61770, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.18-19.12.58:678][518]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61770, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL
+[2017.10.18-19.12.58:678][518]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/TrackOne/UEDPIE_1_TrackOne.TrackOne: Accepted
+[2017.10.18-19.12.58:678][518]LogNet: Remote platform little endian=1
+[2017.10.18-19.12.58:678][518]LogNet: This platform little endian=1
+[2017.10.18-19.12.58:701][519]LogNet: Login request: /Game/Maps/MainMenu/MainMenu userId: Invalid
+[2017.10.18-19.12.58:703][519]LogNet: Welcomed by server (Level: /Game/Maps/TrackOne/UEDPIE_1_TrackOne, Game: /Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode.VehicleAdvGameMode_C)
+[2017.10.18-19.12.58:712][519]LogLoad: LoadMap: 127.0.0.1//Game/Maps/TrackOne/UEDPIE_1_TrackOne?game=/Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode.VehicleAdvGameMode_C
+[2017.10.18-19.12.58:722][519]Cmd: MEM
+[2017.10.18-19.12.58:730][519]LogMemory: Platform Memory Stats for Windows
+[2017.10.18-19.12.58:730][519]LogMemory: Process Physical Memory: 1194.18 MB used, 1264.64 MB peak
+[2017.10.18-19.12.58:730][519]LogMemory: Process Virtual Memory: 1079.44 MB used, 1150.21 MB peak
+[2017.10.18-19.12.58:730][519]LogMemory: Physical Memory: 4569.11 MB used,  28079.91 MB free, 32649.02 MB total
+[2017.10.18-19.12.58:730][519]LogMemory: Virtual Memory: 1821.44 MB used,  28079.91 MB free, 134217728.00 MB total
+[2017.10.18-19.12.58:730][519]LogMemory: 
+[2017.10.18-19.12.58:730][519]Allocator Stats for TBB: (not implemented)
+[2017.10.18-19.12.58:735][519]LogAIModule: Creating AISystem for world TrackOne
+[2017.10.18-19.12.58:735][519]LogTemp:Display: ParseSettings for GameNetDriver
+[2017.10.18-19.12.58:744][519]LogWorld: Bringing World /Game/Maps/TrackOne/UEDPIE_2_TrackOne.TrackOne up for play (max tick rate 60) at 2017.10.18-15.12.58
+[2017.10.18-19.12.58:745][519]LogWorld: Bringing up level for play took: 0.004615
+[2017.10.18-19.12.58:745][519]LogLoad: Took 0.033158 seconds to LoadMap(/Game/Maps/TrackOne/UEDPIE_1_TrackOne)
+[2017.10.18-19.12.58:757][520]LogNet: Client netspeed is 10000
+[2017.10.18-19.12.58:757][520]LogNet: Join request: /Game/Maps/MainMenu/MainMenu?SplitscreenCount=1
+[2017.10.18-19.12.58:757][520]LogNet: Join succeeded: 263
+[2017.10.18-19.13.10:689][230]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61770, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2017.10.18-19.13.10:689][230]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61770, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None, Channels: 2, Time: 2017.10.18-19.13.10
+[2017.10.18-19.13.10:689][230]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61770, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: None, Owner: None
+[2017.10.18-19.13.10:689][230]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2017.10.18-19.13.10:689][230]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None, Channels: 2, Time: 2017.10.18-19.13.10
+[2017.10.18-19.13.10:689][230]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:7777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: None, Owner: None
+[2017.10.18-19.13.10:691][230]LogExit: GameNetDriver None shut down
+[2017.10.18-19.13.10:692][230]LogExit: GameNetDriver None shut down
+[2017.10.18-19.13.25:724][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TrackOne/TrackOne" FILE="D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.18-19.13.25:817][125]LogSavePackage: Save=77.35ms
+[2017.10.18-19.13.25:817][125]LogSavePackage: Moving 'D:/Unreal Games/ScrumLordRacing/Saved/TrackOneA623BEFA4C7EB1C1049B5DA6A8BBA56B.tmp' to 'D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/TrackOne.umap'
+[2017.10.18-19.13.25:818][125]LogSavePackage:Display: Finished SavePackage D:/Unreal Games/ScrumLordRacing/Content/Maps/TrackOne/TrackOne.umap
+[2017.10.18-19.13.25:843][125]LogFileHelpers: Saving map 'TrackOne' took 0.162
+[2017.10.18-19.13.27:481][218]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.18-19.13.27:682][219]Cmd: QUIT_EDITOR
+[2017.10.18-19.13.27:996][219]LogExit: Preparing to exit.
+[2017.10.18-19.13.28:695][219]LogExit: Editor shut down
+[2017.10.18-19.13.28:703][219]LogExit: Transaction tracking system shut down
+[2017.10.18-19.13.28:791][219]LogObj: Freed 0b from 0 cluster array pools.
+[2017.10.18-19.13.28:791][219]LogExit: Object subsystem successfully closed.
+[2017.10.18-19.13.28:812][219]LogD3D11RHI: Shutdown
+[2017.10.18-19.13.28:812][219]LogD3D11RHI: CleanupD3DDevice
+[2017.10.18-19.13.28:851][219]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.18-19.13.28:870][219]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2017.10.18-19.13.28:870][219]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.10.18-19.13.28:870][219]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.10.18-19.13.28:870][219]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.10.18-19.13.28:870][219]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.10.18-19.13.28:870][219]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.10.18-19.13.28:871][219]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.10.18-19.13.28:872][219]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/ScrumLordRacing/Content/Collections/' was aborted.
+[2017.10.18-19.13.28:872][219]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/ScrumLordRacing/Content/Developers/galla000/Collections/' was aborted.
+[2017.10.18-19.13.28:872][219]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/ScrumLordRacing/Saved/Collections/' was aborted.
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.10.18-19.13.28:872][219]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.10.18-19.13.28:873][219]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.10.18-19.13.28:874][219]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.10.18-19.13.28:874][219]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.10.18-19.13.28:874][219]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.10.18-19.13.28:875][219]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.10.18-19.13.28:875][219]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.10.18-19.13.28:875][219]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.10.18-19.13.28:875][219]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.10.18-19.13.28:875][219]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.10.18-19.13.29:140][219]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.10.18-19.13.29:140][219]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.10.18-19.13.29:140][219]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.10.18-19.13.29:141][219]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.10.18-19.13.29:141][219]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.10.18-19.13.29:141][219]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.10.18-19.13.29:141][219]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.10.18-19.13.29:141][219]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.10.18-19.13.29:141][219]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.10.18-19.13.29:141][219]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.10.18-19.13.29:141][219]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.10.18-19.13.29:142][219]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.10.18-19.13.29:143][219]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.10.18-19.13.29:143][219]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.10.18-19.13.29:145][219]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.10.18-19.13.29:145][219]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.10.18-19.13.29:188][219]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.10.18-19.13.29:188][219]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.10.18-19.13.29:189][219]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.10.18-19.13.29:190][219]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.10.18-19.13.29:190][219]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.10.18-19.13.29:190][219]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.10.18-19.13.29:191][219]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.10.18-19.13.29:191][219]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.10.18-19.13.29:191][219]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.10.18-19.13.29:191][219]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.10.18-19.13.29:192][219]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.10.18-19.13.29:192][219]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.10.18-19.13.29:192][219]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.10.18-19.13.29:193][219]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.10.18-19.13.29:193][219]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.10.18-19.13.29:193][219]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.10.18-19.13.29:193][219]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.10.18-19.13.29:193][219]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.10.18-19.13.29:193][219]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.10.18-19.13.29:193][219]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.10.18-19.13.29:194][219]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.10.18-19.13.29:259][219]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.10.18-19.13.29:260][219]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module RawInput (300)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.10.18-19.13.29:261][219]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.10.18-19.13.29:262][219]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.10.18-19.13.29:263][219]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.10.18-19.13.29:263][219]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.10.18-19.13.29:263][219]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.10.18-19.13.29:264][219]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.10.18-19.13.29:264][219]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.10.18-19.13.29:264][219]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.10.18-19.13.29:264][219]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.10.18-19.13.29:264][219]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.10.18-19.13.29:264][219]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.10.18-19.13.29:364][219]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.10.18-19.13.29:465][219]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.10.18-19.13.29:468][219]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.10.18-19.13.29:469][219]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.10.18-19.13.29:469][219]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.10.18-19.13.29:469][219]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.10.18-19.13.29:473][219]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.10.18-19.13.29:476][219]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.10.18-19.13.29:476][219]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.10.18-19.13.29:476][219]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.10.18-19.13.29:476][219]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.10.18-19.13.29:477][219]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.10.18-19.13.29:477][219]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.10.18-19.13.29:477][219]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.10.18-19.13.29:477][219]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.10.18-19.13.29:478][219]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.10.18-19.13.29:478][219]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.10.18-19.13.29:478][219]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.10.18-19.13.29:478][219]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.10.18-19.13.29:479][219]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.10.18-19.13.29:479][219]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.10.18-19.13.29:480][219]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.10.18-19.13.29:480][219]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.10.18-19.13.29:480][219]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.10.18-19.13.29:481][219]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.10.18-19.13.29:483][219]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.10.18-19.13.29:483][219]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.10.18-19.13.29:483][219]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.10.18-19.13.29:485][219]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.10.18-19.13.29:485][219]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.10.18-19.13.29:493][219]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.10.18-19.13.29:493][219]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.10.18-19.13.29:493][219]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.10.18-19.13.29:493][219]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.10.18-19.13.29:493][219]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.10.18-19.13.29:493][219]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.10.18-19.13.29:689][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.18-19.13.29:689][219]LogDirectoryWatcher: A directory notification for 'D:/Unreal Games/ScrumLordRacing/Content/' was aborted.
+[2017.10.18-19.13.29:689][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.18-19.13.29:689][219]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.10.18-19.13.29:694][219]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.10.18-19.13.29:695][219]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.10.18-19.13.29:695][219]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.10.18-19.13.29:695][219]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.10.18-19.13.29:695][219]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.10.18-19.13.29:695][219]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.10.18-19.13.29:695][219]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.10.18-19.13.29:695][219]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.10.18-19.13.29:695][219]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.18-19.13.29:783][219]LogDerivedDataCache: Shutdown
+[2017.10.18-19.13.29:783][219]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.18-19.13.29:783][219]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.18-19.13.29:783][219]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.18-19.13.29:786][219]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.18-19.13.29:787][219]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.18-19.13.29:787][219]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.18-19.13.29:788][219]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.18-19.13.29:789][219]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.18-19.13.29:790][219]LogOnline:Display: Unloading online subsystem: NULL
+[2017.10.18-19.13.29:790][219]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.18-19.13.29:791][219]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.18-19.13.29:791][219]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.18-19.13.29:791][219]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2D6739BB-4196-830E-FA58-E18ED289665A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=665dec2a4cb07e4a71250ab9266ceb62%7Ce8b3675815f34300b2475ff9b011f0bc%7C4e8dcd73-f07b-479f-a7d5-ed78ed029b66&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.18-19.13.29:801][219]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.18-19.13.29:804][219]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.10.18-19.13.29:805][219]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.10.18-19.13.29:805][219]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.10.18-19.13.29:805][219]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.10.18-19.13.29:806][219]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.10.18-19.13.29:806][219]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.10.18-19.13.29:806][219]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.10.18-19.13.29:806][219]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.10.18-19.13.29:808][219]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.18-19.13.29:809][219]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.18-19.13.29:813][219]LogExit: Exiting.
+[2017.10.18-19.13.29:860][219]Log file closed, 10/18/17 15:13:29

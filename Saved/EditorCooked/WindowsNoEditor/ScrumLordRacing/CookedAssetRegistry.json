@@ -20,25 +20,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/BasicShapes/BasicShapeMaterial",
-			"CookedPackageName": "/Engine/BasicShapes/BasicShapeMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "dd350cd07c331809590232685b066797",
-			"FullPackageHash": "ebe9acc6c916f5394807d6433b59dfd1",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/BasicShapes/Cone",
 			"CookedPackageName": "/Engine/BasicShapes/Cone",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -2143,23 +2124,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/EditorResources/AudioIcons/S_AudioComponent_AutoActivate",
-			"CookedPackageName": "/Engine/EditorResources/AudioIcons/S_AudioComponent_AutoActivate",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "1700ae40aaf9654069c76b749be62423",
-			"FullPackageHash": "2bd89e8636ca19a45e42c7c37a7f9180",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/EditorResources/Bad",
 			"CookedPackageName": "/Engine/EditorResources/Bad",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -2186,23 +2150,6 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "7dafac6a326a46825cff1c3fb45a347b",
 			"FullPackageHash": "b9f7cf9bfb80e7786193bf2b3cbd6ebf",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EditorResources/EmptyActor",
-			"CookedPackageName": "/Engine/EditorResources/EmptyActor",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EditorResources/EmptyActor.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "fdd2785906dcb2f743131de88b3859a8",
-			"FullPackageHash": "8aef30f28a06ebf5d1ec4a0a7b823ac6",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -4467,175 +4414,6 @@
 			"SucceededSave": "true",
 			"DependentPackageHash": "842748b2778ad86ea3820692e8197152",
 			"FullPackageHash": "8e958328f1d83ef69156f7ab0ac2d1c1",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/BP_Sky_Sphere",
-			"CookedPackageName": "/Engine/EngineSky/BP_Sky_Sphere",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "7c1d45a86ab6320539a3347e8669b479",
-			"FullPackageHash": "f7f7670c4e23c120572ec9458cf8883e",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset",
-				"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset",
-				"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset",
-				"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset",
-				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset",
-				"../../../Engine/Content/EngineSky/SM_SkySphere.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/C_Sky_Cloud_Color",
-			"CookedPackageName": "/Engine/EngineSky/C_Sky_Cloud_Color",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a845f33cf5e1f3726fe7cabebbcfd3dc",
-			"FullPackageHash": "6413e115412b373c0aedd2a0458f01b6",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/C_Sky_Horizon_Color",
-			"CookedPackageName": "/Engine/EngineSky/C_Sky_Horizon_Color",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "6660a6470c159f0b9a57a1f4e9e0eb06",
-			"FullPackageHash": "5441cb4c58d02c7f9336ead15b29e82d",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/C_Sky_Zenith_Color",
-			"CookedPackageName": "/Engine/EngineSky/C_Sky_Zenith_Color",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "25e0e200c192f4921834181d55b85dff",
-			"FullPackageHash": "b5e24e4ba071d298d47994e396c609ab",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/M_Sky_Panning_Clouds2",
-			"CookedPackageName": "/Engine/EngineSky/M_Sky_Panning_Clouds2",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "58f07a04a68b41e3859bd30449daab53",
-			"FullPackageHash": "de735f911534998d8139b45d1a9cb989",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset",
-				"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset",
-				"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/SM_SkySphere",
-			"CookedPackageName": "/Engine/EngineSky/SM_SkySphere",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/SM_SkySphere.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "2b46c123d3d180912436e2f4f9ed6d22",
-			"FullPackageHash": "7ffc57b9a53bafc466e73c57da98906d",
-			"DependencyData": [
-				"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/T_Sky_Blue",
-			"CookedPackageName": "/Engine/EngineSky/T_Sky_Blue",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Blue.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "3df98cd83baa2e1b5426eaffde746741",
-			"FullPackageHash": "48566c4d39916eed4356c4bcb940cca4",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/T_Sky_Clouds_M",
-			"CookedPackageName": "/Engine/EngineSky/T_Sky_Clouds_M",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "cb92f0dfcf2fd52c80c1c33886114f56",
-			"FullPackageHash": "64bd7dedf55fd6d1abd0e681b2e148b4",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/EngineSky/T_Sky_Stars",
-			"CookedPackageName": "/Engine/EngineSky/T_Sky_Stars",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/EngineSky/T_Sky_Stars.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "134c1f5320a7480e364bfebbce9ce7b7",
-			"FullPackageHash": "02d12f423d97a9699dc49dd229ebbd5b",
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
@@ -7763,25 +7541,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/Geometry/Meshes/CubeMaterial",
-			"CookedPackageName": "/Game/Geometry/Meshes/CubeMaterial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/CubeMaterial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "be3453326ae964fbbeb9bc7de1e11b88",
-			"FullPackageHash": "f11a90790be141512b4bc04774653a19",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/Graphics/Main_Menu",
 			"CookedPackageName": "/Game/Graphics/Main_Menu",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -7806,8 +7565,8 @@
 			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu.umap",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "df2b4b5ed86b5ee8b2806197ee57b0e6",
-			"FullPackageHash": "9f8b455a7a001ed63b616b1b513d4011",
+			"DependentPackageHash": "b582e9acb5648dc41948a2cc70bb30d9",
+			"FullPackageHash": "8a0b76a8fe6bc7c56a8c0a0f2e1236a5",
 			"DependencyData": [
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
@@ -7815,6 +7574,7 @@
 				"/Script/UMG",
 				"/Script/UMGEditor",
 				"/Script/UnrealEd",
+				"D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu_BuiltData.uasset",
 				"D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenuWidget.uasset",
 				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Blueprints/VehicleAdvGameMode.uasset"
 			],
@@ -7829,8 +7589,12 @@
 			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenu_BuiltData.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "",
-			"FullPackageHash": "",
+			"DependentPackageHash": "61d48272b4b85f830351e9d1636e1706",
+			"FullPackageHash": "d07bd85a6810a1cd7e3476d75cf82f0e",
+			"DependencyData": [
+				"/Script/CoreUObject",
+				"/Script/Engine"
+			],
 			"FileSize": "-1",
 			"AssetData": []
 		},
@@ -7842,8 +7606,8 @@
 			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/Maps/MainMenu/MainMenuWidget.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "true",
-			"DependentPackageHash": "1decf2244c2eef203eba61994b553a33",
-			"FullPackageHash": "61990b516dfe61d2488894a6923a253c",
+			"DependentPackageHash": "2e0fdbf48f48947e16db152b750b3ff6",
+			"FullPackageHash": "e34947ad43b2823e1379d4a037957a00",
 			"DependencyData": [
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
@@ -7852,46 +7616,6 @@
 				"/Script/UMG",
 				"/Script/UMGEditor",
 				"D:/Unreal Games/ScrumLordRacing/Content/Graphics/Main_Menu.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Audio/Explosion01",
-			"CookedPackageName": "/Game/StarterContent/Audio/Explosion01",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Audio/Explosion01.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "b108e3d3042286f53cb76ffa564ac95d",
-			"FullPackageHash": "600371e56e89ca8f8a1f1fe4ee277bd7",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Materials/M_CobbleStone_Pebble",
-			"CookedPackageName": "/Game/StarterContent/Materials/M_CobbleStone_Pebble",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "783b1eafc3513617adbc13206358ba68",
-			"FullPackageHash": "f08be6b713873382820f089af65c1dff",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_MacroVariation.uasset"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -7915,236 +7639,6 @@
 				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Ground_Grass_N.uasset",
 				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_MacroVariation.uasset",
 				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Materials/M_Wood_Pine",
-			"CookedPackageName": "/Game/StarterContent/Materials/M_Wood_Pine",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Materials/M_Wood_Pine.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a129bdda7d8247f1143721d82a0744f9",
-			"FullPackageHash": "6c4537f680781d5912c2c6e1fcf4eed3",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_MacroVariation.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Wood_Pine_D.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Particles/Materials/M_Burst",
-			"CookedPackageName": "/Game/StarterContent/Particles/Materials/M_Burst",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/M_Burst.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "7557c155beeadaa91b89a2cc401dc97d",
-			"FullPackageHash": "687f0a4501ebab1b93121a169c2f2689",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Burst_M.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Particles/Materials/M_explosion_subUV",
-			"CookedPackageName": "/Game/StarterContent/Particles/Materials/M_explosion_subUV",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "81b68da0823d34bfefa9cd4e429cf6a9",
-			"FullPackageHash": "273b76d62ce534eac3522f71e4f131e4",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Particles/Materials/m_flare_01",
-			"CookedPackageName": "/Game/StarterContent/Particles/Materials/m_flare_01",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/m_flare_01.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "2b307220893376488e16b8985f8e0c87",
-			"FullPackageHash": "779c63de23e8765e72862dd0c7212107",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Particles/Materials/M_radial_ramp",
-			"CookedPackageName": "/Game/StarterContent/Particles/Materials/M_radial_ramp",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "389dbb5c071df53bb8a86e3ebb36ebd3",
-			"FullPackageHash": "a47bed13fcdabf51a3eba0e2f24c4565",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Particles/Materials/M_smoke_subUV",
-			"CookedPackageName": "/Game/StarterContent/Particles/Materials/M_smoke_subUV",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "842a5d62d1331a2ceb97f4c6d2f902ed",
-			"FullPackageHash": "6b61249689727356ad5f7183fca93ce6",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Smoke_SubUV.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Particles/P_Explosion",
-			"CookedPackageName": "/Game/StarterContent/Particles/P_Explosion",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/P_Explosion.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "b5bc27f9226c72a33485558ee3c0d2b8",
-			"FullPackageHash": "985507c56e0104722af2a7d71017a78c",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/M_Burst.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/m_flare_01.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Burst_M",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Burst_M",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Burst_M.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "7ed685710fe21849cf2502c84873f2c7",
-			"FullPackageHash": "e76ab74e96b0399634f9571152451b06",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_CobbleStone_Pebble_D",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_CobbleStone_Pebble_D",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "ca78ef9812ac9af6eecec86e3ef5a08d",
-			"FullPackageHash": "9797e8eb5c9947d6cace333d74c59a5a",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_CobbleStone_Pebble_M",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_CobbleStone_Pebble_M",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "bac7b884307af8a2465e5fe5c9100c40",
-			"FullPackageHash": "a289290757953b0cafacc2f58b9a3857",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_CobbleStone_Pebble_N",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_CobbleStone_Pebble_N",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "7960ed147e419b0f6f6cddb126ba3c06",
-			"FullPackageHash": "a4a99deedfc3d8e287ff6cbc94384ec9",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Explosion_SubUV",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Explosion_SubUV",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Explosion_SubUV.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "fbb6e002af7707781e743b7f7238cdc8",
-			"FullPackageHash": "2d2a9bb21c3efb198f6fd11be28970fb",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -8213,490 +7707,6 @@
 			"DependencyData": [
 				"/Script/CoreUObject",
 				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Smoke_SubUV",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Smoke_SubUV",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Smoke_SubUV.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "05d21c9ffe17b07b809dfb6531d329c5",
-			"FullPackageHash": "85f9264ab87f275497cfc163348d6b18",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Smoke_Tiled_D",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Smoke_Tiled_D",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "bbe67ea04f361c5e96c6d5fa3305f09b",
-			"FullPackageHash": "0895b74c12d96d08a4c56902cc74e9f6",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Wood_Pine_D",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Wood_Pine_D",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Wood_Pine_D.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a2996d7b6696ce861bba27bbaafcbbab",
-			"FullPackageHash": "71d4f8774d45edfa602aa349487e3d1f",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/StarterContent/Textures/T_Wood_Pine_N",
-			"CookedPackageName": "/Game/StarterContent/Textures/T_Wood_Pine_N",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Textures/T_Wood_Pine_N.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e928a37dfa37f1e6a6d4c32163337e4e",
-			"FullPackageHash": "3b329fd33519254fcc158ae0422bdb2b",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/BumpWave",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/BumpWave",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/BumpWave.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "87b8a47b36f95e05b5376abd2f5cad6a",
-			"FullPackageHash": "8c2d9b4c57f007733fd0afd60b20d2b7",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidOrange.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/BumpWaveSmall",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/BumpWaveSmall",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/BumpWaveSmall.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "f32e82fde0e1e7e367ebc704bb358965",
-			"FullPackageHash": "ff25c36341741c0d194eb7fbb24ad48d",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidOrange.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/BumpWedge",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/BumpWedge",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/BumpWedge.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "36b632b1f94bb2b909489001e69248ca",
-			"FullPackageHash": "0bdef6d737cf765bcb8a23448ad6a124",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidOrange.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/LoopBig",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/LoopBig",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/LoopBig.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "61be9d7d61fc43606aa7c78a171bf60a",
-			"FullPackageHash": "cf9a49ab802a963647c07856bb8e2dc3",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidOrange.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/LoopSmall",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/LoopSmall",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/LoopSmall.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "36c91330786536e32bbdddafa44a2091",
-			"FullPackageHash": "3ebd20a1c4f741e52d2f6ec8741808ec",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidOrange.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/RampLarge",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/RampLarge",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/RampLarge.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "9ef112f9e307c300afc310edcfcbfa81",
-			"FullPackageHash": "17f268a13c312a34cfb5067d9045da88",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidOrange.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/StraightFull",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/StraightFull",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/StraightFull.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "1a965feededacc29a2290af0d095f404",
-			"FullPackageHash": "6ca7838df7806132a71f5791b93d3c28",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/BlackGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/StraightHalf",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/StraightHalf",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/StraightHalf.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "a9d4fbf9d555b3a09bebfc7c0c4c01bd",
-			"FullPackageHash": "bbee4b0942b4f805f11de3e1faf1d345",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/BlackGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/StraightQuarter",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/StraightQuarter",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/StraightQuarter.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "fa1a4aeebee453ed888da0b005f8b165",
-			"FullPackageHash": "8a65fa347d0f8c3decdd42c3c277c1ec",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/BlackGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/turn_22andhalf",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/turn_22andhalf",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/turn_22andhalf.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "867cdaea9917f03e97a9e1bbf61cc77a",
-			"FullPackageHash": "a3a533b924339fab322f9dab3f9d9c71",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/BlackGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidRed.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/Turn_45",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/Turn_45",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/Turn_45.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "35f87b3519244fddc515366eb298870f",
-			"FullPackageHash": "0ff550a28997ffc9ba2f58702a96fc13",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/BlackGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidRed.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/Turn_90",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/Turn_90",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/Turn_90.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "1585ea7837b57af45c6aeb08e01a585b",
-			"FullPackageHash": "d9ebaf1dbde64ffe640478fe3be1c729",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/BlackGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidRed.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/ArenaMesh/Turn_90Large",
-			"CookedPackageName": "/Game/VehicleAdv/ArenaMesh/Turn_90Large",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/ArenaMesh/Turn_90Large.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "9df75089fc34dd8ce65e45244a778464",
-			"FullPackageHash": "6afa33a5bdef33bc57cc57ac5c002aa9",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/BlackGrid.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/Materials/Landscape",
-			"CookedPackageName": "/Game/VehicleAdv/Materials/Landscape",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/Landscape.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "2c32729fb6f7bcf0d9e26bdc277c759d",
-			"FullPackageHash": "b261290d315e5c4332a841cb9aefe5e5",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/Landscape",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/Materials/MasterGrid",
-			"CookedPackageName": "/Game/VehicleAdv/Materials/MasterGrid",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MasterGrid.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "6cfe89307b8be62a9005a96b2cff5bc2",
-			"FullPackageHash": "6b2e7b62c5b01ef4d8e9b4ea4e7de759",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"../../../Engine/Content/EngineMaterials/Grid.uasset",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/Materials/MasterSolidColor",
-			"CookedPackageName": "/Game/VehicleAdv/Materials/MasterSolidColor",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MasterSolidColor.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "2f743b8d9e5f6b23bac8cde158c24f3e",
-			"FullPackageHash": "d3d5d814a1c01072f410eb5798ce9173",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/Materials/MaterialInstances/BlackGrid",
-			"CookedPackageName": "/Game/VehicleAdv/Materials/MaterialInstances/BlackGrid",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/BlackGrid.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "bd5e7938bc9557b394812e75d5a9ef81",
-			"FullPackageHash": "d61b394bc47357db6e189213792aedb2",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MasterGrid.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/Materials/MaterialInstances/LandscapeNoHole",
-			"CookedPackageName": "/Game/VehicleAdv/Materials/MaterialInstances/LandscapeNoHole",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/LandscapeNoHole.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "c8fabc80a823c9c452c951a271a55929",
-			"FullPackageHash": "1c333cc72a80ff6151192e2ac3f1d0ad",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/Landscape.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/Materials/MaterialInstances/RedGrid",
-			"CookedPackageName": "/Game/VehicleAdv/Materials/MaterialInstances/RedGrid",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/RedGrid.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "166b2a128a877161200af77189ae3a0b",
-			"FullPackageHash": "da8bf061820e3f3eefeea8b2ac8ebf68",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MasterGrid.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/Materials/MaterialInstances/SolidOrange",
-			"CookedPackageName": "/Game/VehicleAdv/Materials/MaterialInstances/SolidOrange",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidOrange.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "0869014cf021556e5ea30d5fae23b0fd",
-			"FullPackageHash": "ef82841df4f4e0817c20a385f954e81f",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MasterSolidColor.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdv/Materials/MaterialInstances/SolidRed",
-			"CookedPackageName": "/Game/VehicleAdv/Materials/MaterialInstances/SolidRed",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MaterialInstances/SolidRed.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "5ad40e6ba2c5d66f46d5105c2e6a940e",
-			"FullPackageHash": "a96736884b339ef0ba23c7251e05263e",
-			"DependencyData": [
-				"*** SHADERSOURCE ***",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/Materials/MasterSolidColor.uasset"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -8945,50 +7955,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/VehicleAdvBP/Blueprints/Barrel",
-			"CookedPackageName": "/Game/VehicleAdvBP/Blueprints/Barrel",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Blueprints/Barrel.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "d166140a9d22eaa2381710a44bbc2358",
-			"FullPackageHash": "1c5a89b06ded5571cf5a50c68d1cea8f",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Materials/M_Wood_Pine.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Mesh/1M_Cube_2_DM.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdvBP/Blueprints/PowerUp",
-			"CookedPackageName": "/Game/VehicleAdvBP/Blueprints/PowerUp",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Blueprints/PowerUp.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "37a938a13714ed3364405b7148db33ee",
-			"FullPackageHash": "1af4df42cd707caeb35b72c29f0ef3f0",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/BasicShapes/Cube.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode",
 			"CookedPackageName": "/Game/VehicleAdvBP/Blueprints/VehicleAdvGameMode",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -9108,87 +8074,6 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo",
-			"CookedPackageName": "/Game/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e81c9fc1b98305a5a038b4f75eb45c1c",
-			"FullPackageHash": "a8f2d0b8b7edd3752da45ee7fc206eb8",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/Landscape",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/PhysicsMaterials/Slippery.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo",
-			"CookedPackageName": "/Game/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "0c20668fc2a73f1059c468e4e9921486",
-			"FullPackageHash": "85e0660fed37cf6dacd758fe91548810",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/Landscape",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdv/PhysicsMaterials/NonSlippery.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdvBP/Mesh/1M_Cube_2",
-			"CookedPackageName": "/Game/VehicleAdvBP/Mesh/1M_Cube_2",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Mesh/1M_Cube_2.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "e32c420cae5eac89712a949171ae8135",
-			"FullPackageHash": "f1786b072b20194325073bf76bb8b6e3",
-			"DependencyData": [
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/CubeMaterial.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Game/VehicleAdvBP/Mesh/1M_Cube_2_DM",
-			"CookedPackageName": "/Game/VehicleAdvBP/Mesh/1M_Cube_2_DM",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Mesh/1M_Cube_2_DM.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "true",
-			"DependentPackageHash": "77784246644e603048f9343346f800e1",
-			"FullPackageHash": "865b3716bc9096a023fa1604b6c6d485",
-			"DependencyData": [
-				"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/UnrealEd",
-				"D:/Unreal Games/ScrumLordRacing/Content/Geometry/Meshes/CubeMaterial.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Audio/Explosion01.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/StarterContent/Particles/P_Explosion.uasset",
-				"D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Mesh/1M_Cube_2.uasset"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
 			"SourcePackageName": "/Engine/VREditor/ViewportInteractionAssetContainerData",
 			"CookedPackageName": "/Engine/VREditor/ViewportInteractionAssetContainerData",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
@@ -9235,6 +8120,28 @@
 			"SucceededSave": "false",
 			"DependentPackageHash": "661bb69e2a08f98e5a3dc4a4538e722f",
 			"FullPackageHash": "6a88f3c9251b7569d63e9a99e24df998",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
+			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "dc1c2c90e1b5998b91f5bd7d28b3080d",
+			"FullPackageHash": "d94a4d7acfa2cd8087f9ee99d8f59337",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset",
@@ -9300,40 +8207,18 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/Paper2D/FlipbookEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/Paper2D/FlipbookEditorTutorial",
+			"SourcePackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "69bb48bc08c85acb1e9f22a00096c902",
-			"FullPackageHash": "37ab2593d22bc48eafba5d030dd913f5",
+			"DependentPackageHash": "23e648c83b38fd208bf6bc5c575e91fc",
+			"FullPackageHash": "6f85079326fac7b859703df804a51858",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "a10a9b4275d12f23bcfb18e3326da132",
-			"FullPackageHash": "efc36e8f0805455704a6db4bc92b1826",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset",
+				"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -9365,37 +8250,15 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "7be7a5890c36cb530e509fc092ee7024",
-			"FullPackageHash": "9d33e10174cf8ad3c51918f03c9a2f60",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "d024aec54bef1b026569be6a693210dd",
-			"FullPackageHash": "3e4773f1d334cf622eaaab4cfeed1e95",
+			"DependentPackageHash": "de02970fd34b1d12322895ec314eef0b",
+			"FullPackageHash": "f2cbe38792647aa3783ee97e51b60a14",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset",
@@ -9409,17 +8272,18 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "86bef88e3b8e0d0c192859e146d8f9f2",
-			"FullPackageHash": "fb40e9da8cd73863835ccb8753309bd2",
+			"DependentPackageHash": "2ff78890a6782dbfd2e9052d23d088cd",
+			"FullPackageHash": "2490ed75d8165ea46b3c0823253ce07a",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -9473,18 +8337,87 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData",
-			"CookedPackageName": "/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData",
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "D:/Unreal Games/ScrumLordRacing/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "3d12d2a13315db5e353c11face2f6f0b",
-			"FullPackageHash": "f8edc434ca738f05c458b8577f3c05cb",
+			"DependentPackageHash": "4dd2bb316dfb766167397ea3f80b86a7",
+			"FullPackageHash": "1842b9bae152f34456abff13adabe167",
 			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
-				"/Script/Engine"
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/StaticMeshEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/StaticMeshEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "86bef88e3b8e0d0c192859e146d8f9f2",
+			"FullPackageHash": "fb40e9da8cd73863835ccb8753309bd2",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintInterfacesEditorOverview.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "7be7a5890c36cb530e509fc092ee7024",
+			"FullPackageHash": "9d33e10174cf8ad3c51918f03c9a2f60",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintInterface_64x.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/PersonaAnimEditorWalkThrough",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorWalkThrough.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "a10a9b4275d12f23bcfb18e3326da132",
+			"FullPackageHash": "efc36e8f0805455704a6db4bc92b1826",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_ShowSkeletalMeshes_40x.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
 			],
 			"FileSize": "-1",
 			"AssetData": []
@@ -9512,18 +8445,18 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/Paper2D/SpriteEditorTutorial",
+			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
+			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Paper2D/SpriteEditorTutorial.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "23e648c83b38fd208bf6bc5c575e91fc",
-			"FullPackageHash": "6f85079326fac7b859703df804a51858",
+			"DependentPackageHash": "c4f8afb32a5ee8190303f118151e19c8",
+			"FullPackageHash": "de22f5853053d0b4dff1d74087561a70",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DSprite_TutorialIcon.uasset",
+				"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -9603,105 +8536,18 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview",
+			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/LevelBlueprintEditorOverview.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "de02970fd34b1d12322895ec314eef0b",
-			"FullPackageHash": "f2cbe38792647aa3783ee97e51b60a14",
+			"DependentPackageHash": "d024aec54bef1b026569be6a693210dd",
+			"FullPackageHash": "3e4773f1d334cf622eaaab4cfeed1e95",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/BlueprintMacroLibrariesEditorOverview.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "2ff78890a6782dbfd2e9052d23d088cd",
-			"FullPackageHash": "2490ed75d8165ea46b3c0823253ce07a",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintMacroLibrary_64x.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
-			"CookedPackageName": "/Engine/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Tutorial_BP_MacroLib.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "4dd2bb316dfb766167397ea3f80b86a7",
-			"FullPackageHash": "1842b9bae152f34456abff13adabe167",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
-			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Using_The_Tool_Tutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "dc1c2c90e1b5998b91f5bd7d28b3080d",
-			"FullPackageHash": "d94a4d7acfa2cd8087f9ee99d8f59337",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset",
-				"/Script/BlueprintGraph",
-				"/Script/CoreUObject",
-				"/Script/Engine",
-				"/Script/IntroTutorials",
-				"/Script/UnrealEd"
-			],
-			"FileSize": "-1",
-			"AssetData": []
-		},
-		{
-			"SourcePackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
-			"CookedPackageName": "/Engine/Tutorial/Foliage/Foliage_Settings_Tutorial",
-			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
-			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Foliage/Foliage_Settings_Tutorial.uasset",
-			"IsEditorOnly": "false",
-			"SucceededSave": "false",
-			"DependentPackageHash": "c4f8afb32a5ee8190303f118151e19c8",
-			"FullPackageHash": "de22f5853053d0b4dff1d74087561a70",
-			"DependencyData": [
-				"*** SCRIPTSOURCE ***",
-				"../../../Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -9734,17 +8580,18 @@
 			"AssetData": []
 		},
 		{
-			"SourcePackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
-			"CookedPackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
+			"SourcePackageName": "/Engine/Tutorial/Paper2D/FlipbookEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/Paper2D/FlipbookEditorTutorial",
 			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
 			"FileSize": "-1",
-			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset",
 			"IsEditorOnly": "false",
 			"SucceededSave": "false",
-			"DependentPackageHash": "0cbc9891fd5a5e5d586816e4840960e9",
-			"FullPackageHash": "0f61f06c354a86498da2eb1725c79b42",
+			"DependentPackageHash": "69bb48bc08c85acb1e9f22a00096c902",
+			"FullPackageHash": "37ab2593d22bc48eafba5d030dd913f5",
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
+				"../../../Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
@@ -9767,6 +8614,27 @@
 			"DependencyData": [
 				"*** SCRIPTSOURCE ***",
 				"../../../Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset",
+				"/Script/BlueprintGraph",
+				"/Script/CoreUObject",
+				"/Script/Engine",
+				"/Script/IntroTutorials",
+				"/Script/UnrealEd"
+			],
+			"FileSize": "-1",
+			"AssetData": []
+		},
+		{
+			"SourcePackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
+			"CookedPackageName": "/Engine/Tutorial/SubEditors/DestructibleMeshEditorTutorial",
+			"CookedPackageTimeStamp": "0001.01.01-00.00.00",
+			"FileSize": "-1",
+			"ResolvedRelativePath": "../../../Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset",
+			"IsEditorOnly": "false",
+			"SucceededSave": "false",
+			"DependentPackageHash": "0cbc9891fd5a5e5d586816e4840960e9",
+			"FullPackageHash": "0f61f06c354a86498da2eb1725c79b42",
+			"DependencyData": [
+				"*** SCRIPTSOURCE ***",
 				"/Script/BlueprintGraph",
 				"/Script/CoreUObject",
 				"/Script/Engine",
