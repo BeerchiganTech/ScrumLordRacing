@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 public class ScrumLordRacingTarget : TargetRules
 {
-    public ScrumLordRacingTarget(TargetInfo Target) : base(Target)
+	public ScrumLordRacingTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 
-        ExtraModuleNames.Add("UE4Game");
+		ExtraModuleNames.Add("UE4Game");
 	}
 
 	//
